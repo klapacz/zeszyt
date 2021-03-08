@@ -1,0 +1,24 @@
+{{ define "main" }}
+	<header>
+		<h1>Witam w moim zeszyciku</h1>
+		<p>
+			Na tej stronie znajdują się moje notatki z lekcji. Jeśli chciałbyś dołożyć coś od siebie, zwróć się do mnie, a umożliwię edycję <a href="{{ .Site.Params.Repo }}">repozytorium</a>.
+		</p>
+	</header>
+
+	<nav>
+		<h2>Przedmioty</h2>
+		<ul>
+			{{ range .Site.Menus.main }}
+				<li>
+					<a href="{{ .URL }}" title="{{ .Page.Description }}">{{ .Name }}</a>
+				</li>
+			{{ end }}
+		</ul>
+	</nav>
+	
+	{{ if .Site.Params.Feed }}
+		<h2>Bądź na bieżąco</h2>
+		<p>Jeśli korzystasz z czytnika RSS możesz zasubskrybować <a href="{{ .Site.Params.Feed }}">feed</a>.</p>
+	{{ end }}
+{{ end }}

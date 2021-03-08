@@ -1,0 +1,9 @@
+baseURL: https://lapacz-kornel.dev/zeszyt/
+languageCode: pl
+title: Zeszyt Kornela
+disableKinds: ['RSS']
+params:
+  author: Korneliusz Łapacz
+  description: Na tej stronie znajdują się moje notatki z lekcji
+  repo: https://git.lapacz-kornel.dev/zeszyt/
+  feed: https://git.lapacz-kornel.dev/zeszyt/atom.xml

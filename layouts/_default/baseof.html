@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="{{ .Site.Params.Author }}">
+	<meta name="description" content="{{ .Site.Params.Description }}">
+	<title>{{ block "title" . }} {{ .Title }} {{ end }}</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">
+</head>
+<body>
+	{{ block "main" . }}{{ end }}
+</body>
+</html>
