@@ -1,0 +1,96 @@
+<!doctype html><html lang=pl><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=author content="Korneliusz Łapacz"><meta name=description content="Na tej stronie znajdują się moje notatki z lekcji"><title>ASSO &ndash; Zeszyt Kornela</title><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css><style>.anchor{position:absolute;transform:translateX(-100%);display:none}*:hover>.anchor{display:block}</style></head><body><header><h1>ASSO</h1><p>Administracja Serwerowymi Systemami Operacyjnymi</p></header><article><h2 id=rodzaje-licencji-microsoft><a href=#rodzaje-licencji-microsoft class=anchor>#</a>Rodzaje licencji Microsoft</h2><ul><li>Licencja Box (wersja pudełkowa)<ul><li>Oprogramowanie można instalować wielokrotnie, ale tylko na jednym komputerze w tym samym czasie.</li></ul></li><li>Licencje OEM (przypisana do sprzętu)</li><li>Licencja Dostępowa CAL (Client Access License)<ul><li>CAL na urządzenie</li><li>CAL na użytkownika</li><li>dla Windows server</li></ul></li><li>MOLP, OLP (Microsoft Open License Program)<ul><li>Licencje grupowe (np. dla szkoły)</li></ul></li></ul><h2 id=współpraca-stacji-roboczej-z-serwerem-sieci-lokalnej-typy-sieci-komputerowych><a href=#współpraca-stacji-roboczej-z-serwerem-sieci-lokalnej-typy-sieci-komputerowych class=anchor>#</a>Współpraca stacji roboczej z serwerem sieci lokalnej. Typy sieci komputerowych.</h2><p>Sieć równorzędna (peer-to-peer)</p><ul><li>W sieciach równorzędnych (peer-to-peer) każdy komputer może być klientem, serwerem lub jednocześnie klientem i serwerem</li><li>siecią klient -serwer zarządza użytkownik o uprawnianiach administratora</li><li>Wszystkie informacje o składniach sieci, jej użytkownikach</li></ul><p>Sieć klient serwer</p><h2 id=usługi-sieciowe><a href=#usługi-sieciowe class=anchor>#</a>Usługi sieciowe</h2><p>FTP</p><ul><li>transmisja plików po sieci</li><li>używa portów :20 i :21</li><li>protokół TCP/IP</li></ul><p>Telnet</p><ul><li>połączenie zdalne z tekstową warstwą systemu operacyjnego</li><li>używa portu :23</li></ul><p>SSH</p><ul><li>połączenie zdalne z linią komend, <strong>szyfrowane</strong></li><li>używa portu :22</li></ul><h2 id=usługi-poczty-elektronicznej><a href=#usługi-poczty-elektronicznej class=anchor>#</a>Usługi poczty elektronicznej</h2><ol><li>SMTP (Simple Mail Transfer Protocol)<ul><li>służący do wysyłania poczty</li><li>port :587</li><li>szyfrowany :465</li></ul></li><li>Protokół POP3 (Post Office Protocol 3)<ul><li>służący do pobierania poczty</li><li>port :110</li><li>szyfrowany :995</li></ul></li><li>Protokół IMAP (Internet Message Access Protocol)<ul><li>służący do odbiera poczty</li><li>port :143</li><li>szyfrowany :993</li></ul></li></ol><h2 id=klasy-adresów-ip><a href=#klasy-adresów-ip class=anchor>#</a>Klasy adresów ip</h2><table><thead><tr><th>Klasa</th><th>Zakres adresu (pierwszy oktet)</th><th>początek adresu</th></tr></thead><tbody><tr><td>A</td><td>1 - 127</td><td><code>0</code></td></tr><tr><td>B</td><td>128 - 191</td><td><code>10</code></td></tr><tr><td>C</td><td>192 - 223</td><td><code>110</code></td></tr><tr><td>D</td><td>224 - 239</td><td><code>1110</code></td></tr><tr><td>E</td><td>240 -</td><td></td></tr></tbody></table><p><code>127.0.0.1</code> - localhost, pętla zwrotna</p><h2 id=zadanie-1---adresacja-ip><a href=#zadanie-1---adresacja-ip class=anchor>#</a>Zadanie 1 - Adresacja IP</h2><p>W sieci komputer posiada adres IP: <code>212.51.219.59</code> oraz maskę <code>255.255.255.192</code></p><p>Wylicz adres:</p><pre><code>11010100.00110011.11011010.00111011   adres komputera
+11111111.11111111.11111111.11000000   adres maski podsieci
+11010100.00110011.11011010.00000000   adres sieci
+11010100.00110011.11011010.00111111   adres rozgłoszeniowy
+</code></pre><p>Wpisz Zakres adresów IP, które można przydzielić hostom w tej podsieci
+<code>212.51.219.1 - 212.51.219.62</code></p><p>Zapisz adres IP i maskę sieci w postaci skróconej
+<code>212.51.219.0/26</code></p><p>Zapisz w postaci binarnej następujące adresy IP</p><pre><code>172.11.11.1   10101100.00001011.00001011.00000001
+23.122.45.11  00010111.01111010.00101101.00001011
+</code></pre><p>Określ, ile hostów można zaadresować w sieciach o następujących maskach:</p><pre><code>255.255.255.0   254
+255.128.0.0     8388606
+128.0.0.0       214483646
+</code></pre><p>Podaj zapis maski w notacji kropkowej</p><pre><code>/32 255.255.255.255
+/9  255.128.0.0
+/15 255.254.0.0
+</code></pre><p>Adresy prywatne</p><pre><code>10.0.0.0/8
+172.16.0.0 - 172.31.255.255
+192.168.0.0/24
+</code></pre><p>APIPA - <code>169.254.x.x</code></p><p>klasy IP (pierwszy oktekt)</p><ul><li>A - 0-127</li><li>B - 128-191</li><li>C - 192-223</li><li>D - 224-239</li><li>E - 240-</li></ul><pre><code>192.168.200.15/28
+maska:                     255.255.255.240
+adres sieci:               192.168.200.0
+adres rozgłoszeniowy:      192.168.200.15
+ilość adresów:             16
+ilość adresów użytecznych: 14
+
+
+192.168.100.200/24
+maska:                     255.255.255.000
+adres sieci:               192.168.100.0
+adres rozgłoszeniowy:      192.168.100.255
+ilość adresów:             256
+ilość adresów użytecznych: 254
+
+10.20.30.40/29
+maska:                     255.255.255.248
+adres sieci:               10.20.30.40
+adres rozgłoszeniowy:      10.20.30.47
+ilość adresów:             8
+ilość adresów użytecznych: 6
+
+
+10.100.200.0/23
+maska:                     255.255.254.0
+adres sieci:               10.100.200.0
+adres rozgłoszeniowy:      10.100.201.255
+ilość adresów:             512
+ilość adresów użytecznych: 510
+
+10.20.50.60/30
+maska:                     255.255.255.252
+adres sieci:               10.20.50.60
+adres rozgłoszeniowy:      10.20.50.61
+ilość adresów:             4
+ilość adresów użytecznych: 2
+
+10.20.50.60/30
+maska:                     255.255.255.252
+adres sieci:               10.20.50.60
+adres rozgłoszeniowy:      10.20.50.63
+ilość adresów:             4
+ilość adresów użytecznych: 2
+
+10.20.30.40/28
+maska:                     255.255.240.0
+adres sieci:               10.20.30.32
+adres rozgłoszeniowy:      10.20.30.47
+ilość adresów:             16
+ilość adresów użytecznych: 14
+
+10.20.100.200/29
+maska:                     255.255.248.0
+adres sieci:               10.20.100.200
+adres rozgłoszeniowy:      10.20.100.207
+ilość adresów:             8
+ilość adresów użytecznych: 6
+
+10.20.150.0/22
+maska:                     255.255.252.0
+adres sieci:               10.20.148.0
+adres rozgłoszeniowy:      10.20.151.255
+ilość adresów:             1024
+ilość adresów użytecznych: 1022
+
+10.20.30.233/28
+maska:                     255.255.255.240
+adres sieci:               10.20.30.224
+adres rozgłoszeniowy:      10.20.30.239
+ilość adresów:             16
+ilość adresów użytecznych: 14
+
+10.20.30.160/25
+maska:                     255.255.255.128
+adres sieci:               10.20.30.128
+adres rozgłoszeniowy:      10.20.30.255
+ilość adresów:             128
+ilość adresów użytecznych: 126
+</code></pre><h3 id=protokoły-routingu><a href=#protokoły-routingu class=anchor>#</a>Protokoły routingu</h3><blockquote><p>CIDR - adresacja bezklasowa</p></blockquote><ul><li>RIP (wersja 2 obsluguje maski bez klasowe)</li></ul></article></body></html>
