@@ -21,7 +21,16 @@
 		<h1>{{ .Title }}</h1>
 		{{ if .Description }} <p>{{ .Description }}</p> {{ end }}
 	</header>
+
 	<article>
 		{{ .Content | replaceRE "(<h[1-6] id=\"(.+)\".*>)(.*)(</h[1-6]>)" `${1}<a href="#${2}" class="anchor">#</a>${3}${4}` | safeHTML }}
 	</article>
+	
+	<footer>
+		<hr>
+		{{ $editURL := printf "%s/edit/master/content/%s" .Site.Params.Repo .Path }}
+		{{ $commitsURL := printf "%s/commits/master/content/%s" .Site.Params.Repo .Path }}
+		<a href="{{ $editURL }}">Edytuj tę stronę</a>
+		<a href="{{ $commitsURL }}">Historia edycji</a>
+	</footer>
 {{ end }}
