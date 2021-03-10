@@ -1,17 +1,3 @@
-{{ define "head" }}
-	<style>
-		.anchor {
-			position: absolute;
-			transform: translateX(-100%);
-			display: none;
-		}
-		
-		*:hover > .anchor {
-			display: block;
-		}
-	</style>
-{{ end }}
-
 {{ define "title" }}
 	{{ .Title }} &ndash; {{ .Site.Title }}
 {{ end }}
@@ -25,12 +11,11 @@
 	<article>
 		{{ .Content | replaceRE "(<h[1-6] id=\"(.+)\".*>)(.*)(</h[1-6]>)" `${1}<a href="#${2}" class="anchor">#</a>${3}${4}` | safeHTML }}
 	</article>
-	
-	<footer>
-		<hr>
-		{{ $editURL := printf "%s/edit/master/content/%s" .Site.Params.Repo .Path }}
-		{{ $commitsURL := printf "%s/commits/master/content/%s" .Site.Params.Repo .Path }}
-		<a href="{{ $editURL }}">Edytuj tę stronę</a>
-		<a href="{{ $commitsURL }}">Historia edycji</a>
-	</footer>
+{{ end }}
+
+{{ define "footer" }}
+	{{ $editURL := printf "%s/edit/master/content/%s" .Site.Params.Repo .Path }}
+	{{ $commitsURL := printf "%s/commits/master/content/%s" .Site.Params.Repo .Path }}
+	<a href="{{ $editURL }}">Edytuj tę stronę</a>
+	<a href="{{ $commitsURL }}">Historia edycji</a>
 {{ end }}
