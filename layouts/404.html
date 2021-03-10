@@ -1,0 +1,20 @@
+{{ define "title" }} 404 {{ end }}
+
+{{ define "main" }}
+	<header>
+		<h1>Nie znaleziono takiej strony!</h1>
+	</header>
+	
+	<main>
+		<a href="{{ .Site.BaseURL }}">Wróć na stronę główną </a>
+	</main>
+
+	<script>
+		const { pathname } = document.location;
+		const re = /^\/subject/;
+
+		if(re.test(pathname)) {
+			window.location.replace(pathname.replace(re, ''));
+		}
+	</script>
+{{ end }}
