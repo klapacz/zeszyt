@@ -2,4 +2,5 @@
 
 ![deploy workflow](https://github.com/kornellapacz/zeszyt/actions/workflows/main.yaml/badge.svg)
 
-Written in Polish.
+Written in Polish. Generated with [hugo](https://gohugo.io).
+
