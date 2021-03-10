@@ -1,7 +1,6 @@
 ---
 title: PSI
 description: Projektowanie Stron Internetowych
-menu: main
 ---
 
 

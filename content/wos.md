@@ -1,7 +1,6 @@
 ---
 title: WOS
 description: Wiedza o społeczeństwie
-menu: main
 ---
 
 > miejsce 14a

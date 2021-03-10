@@ -1,7 +1,6 @@
 ---
 title: PP
 description: Podstawy przedsiębiorczości
-menu: main
 ---
 
 ## Kim jest osoba przedsiębiorcza? Typy osobowości

@@ -1,6 +1,5 @@
 ---
 title: Angielski
-menu: main
 ---
 
 ## Page 47

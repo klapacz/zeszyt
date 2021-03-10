@@ -1,7 +1,6 @@
 ---
 title: ASSO
 description: Administracja Serwerowymi Systemami Operacyjnymi
-menu: main
 ---
 
 

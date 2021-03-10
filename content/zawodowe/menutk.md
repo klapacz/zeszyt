@@ -1,7 +1,6 @@
 ---
 title: MENUTK
 description: Montaż, eksploatacja i naprawa urządzeń techniki komputerowej
-menu: main
 ---
 
 > miejsce 13b

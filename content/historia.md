@@ -1,6 +1,5 @@
 ---
 title: Historia
-menu: main
 ---
 
 ## Wojna obronna 1939

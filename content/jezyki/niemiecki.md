@@ -1,6 +1,5 @@
 ---
 title: Niemiecki
-menu: main
 ---
 
 ## Lekcja organizacyjna zapoznanie z programem nauczania i rozkładem materiału w klasie drugiej, przypomnienie PSO

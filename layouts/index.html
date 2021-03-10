@@ -9,7 +9,7 @@
 	<nav>
 		<h2>Przedmioty</h2>
 		<ul>
-			{{ range .Site.Menus.main }}
+			{{ range .Site.RegularPages }}
 				<li>
 					<a href="{{ .URL }}" title="{{ .Page.Description }}">{{ .Name }}</a>
 				</li>
