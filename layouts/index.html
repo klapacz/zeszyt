@@ -8,13 +8,7 @@
 
 	<nav>
 		<h2>Przedmioty</h2>
-		<ul>
-			{{ range .Site.RegularPages }}
-				<li>
-					<a href="{{ .URL }}" title="{{ .Page.Description }}">{{ .Name }}</a>
-				</li>
-			{{ end }}
-		</ul>
+		{{ partial "walk.html" .}}
 	</nav>
 	
 	{{ if .Site.Params.Feed }}
