@@ -9,7 +9,7 @@
 	</header>
 
 	<article>
-		{{ .Content | replaceRE "(<h[1-6] id=\"(.+)\".*>)(.*)(</h[1-6]>)" `${1}<a href="#${2}" class="anchor">#</a>${3}${4}` | safeHTML }}
+		{{ .Content | replaceRE "(<h[1-6] id=\"(.+)\"[^>]*>)(.*)(</h[1-6]>)" `${1}<a href="#${2}" class="anchor">#</a>${3}${4}` | safeHTML }}
 	</article>
 {{ end }}
 
