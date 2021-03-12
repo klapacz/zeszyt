@@ -81,3 +81,25 @@ Nowym premierem został Stanisław Mikołajczyk, był on działaczem Polskiego S
 Gdy armia czerwona wkroczyła na tereny Polski (za Bug) i utworzono PKWN rząd radziecki domagał się utworzenia jednego rządu polskiego. Nowy rząd Tymczasowy Rząd Jedności Narodowej powstał z połączenia PKWNu i części rządu emigracyjnego, główną rolę odgrywali w nim komuniści i ich sojusznicy, a premierem został Edward Osóbka-Morawski.
 
 > Josep Broz Tito - partyzant komunistyczny, po wojnie przez wiele lat przywodca komunistyczny jugoslawi
+
+## Integracja europejska po II wojnie światowej
+
+Europa była zniszczona po I i II wojnie światowej, to właśnie na jej terenie toczyły się największe walki.
+Dlatego politycy z 6 państw Europy zachodniej postanowili rozpocząć współpracę , na razie w wąskiej dziedzinie przemysłu ciężkiego czyli węgla i stali. Powstała w 1951 roku Europejska Wspólnota Węgla i Stali , do której należały : Francja, RFN, Włochy , Holandia, Belgia, Luxenburg.
+Głównym celem Wspólnoty i jej organów było wspieranie rozwoju gospodarczego, zwiększanie zatrudnienia i wzrost standardów życiowych w państwach członkowskich poprzez tworzenie i regulowanie wspólnego rynku.
+Współpraca się udała dlatego w 1957 w/w państwa podpisały TRAKTATY RZYMSKIE na mocy których powołano Europejską Wspólnotę Gospodarczą (EWG). Celem tej organizacji było powołanie wspólnego rynku dla państw członkowskich.
+Zniesiono wewnątrz tych państw wszystkie cła, poszerzono swobodę gospodarczą.
+
+Cytaty z TRAKTATÓW RZYMSKICH 1957
+> ZDECYDOWANI stworzyć podstawy coraz ściślejszego związku między narodami Europy,
+> ZDECYDOWANI zapewnić postęp gospodarczy i społeczny swych krajów poprzez wspólne działanie, usuwając bariery dzielące Europę,
+> ZDECYDOWANI zachować i umocnić pokój i wolność przez połączenie swych zasobów, oraz wzywając inne narody Europy, które podzielają ich ideały, do połączenia się w wysiłkach,
+
+Na czele EWG stał przewodniczący Komisji Europejskiej( tak jest do dziś).
+W 1973 do EWG przystąpiły W. Brytania, Dania , Irlandia, w 1981 Grecja, w 1986 Hiszpania , Portugalia.
+
+W 1992 roku podpisano traktat w Maastricht , gdzie postanowiono ,że od 1999 powstanie unia walutowa oraz wspólna waluta euro, zmieni się nazwa na Wspólnotę Europejską , będzie prowadzona wspólna polityka zagraniczna oraz polityka bezpieczeństwa.
+Do Wspólnoty Europejskiej w 1995 Austria, Szwecja, Finlandia.
+
+W 1997 podpisano traktat w Lizbonie na mocy którego powstała Unia Europejska , od tej pory UE jest nie tylko organizacją gospodarczą , ale i polityczną ,zajmuje się także przestrzeganiem prawa w krajach członkowskich.
+W 2004 roku Polska przystąpiła do UE. Obecnie UE liczy 27 państw.
