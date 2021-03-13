@@ -1,13 +1,17 @@
 <ul>
-	{{ range .Pages }}
-		<li>
-			{{ if .Page.IsSection }}
+	{{ range .Pages.ByTitle }}
+		{{ if .Pages }}
+			<li>
 				{{ .Title }}
-			
 				{{ partial "walk.html" . }}
-			{{ else }}
+			</li>
+		{{ end }}
+	{{ end }}
+	{{ range .Pages.ByTitle }}
+		{{ if not .Pages }}
+			<li>
 				<a href="{{ .RelPermalink }}">{{ .Title }}</a>
-			{{ end }}
-		</li>
+			</li>
+		{{ end }}
 	{{ end }}
 </ul>
