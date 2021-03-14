@@ -62,13 +62,13 @@ PHP to skryptowy język wykonywany po stronie serwer (interpreterem nie jest prz
 
 Skrypty PHP mają rozszerzenie `.php`. Można wpisywać w nich HTML.
 
-```php
+```phtml
 <h1 id="first-heading">HTML w PHP!!!</h1>
 ```
 
 Kod PHP umieszcza się w specjalnych znacznikach, otwierającym `<?php` i zamykającym `?>`
 
-```php
+```phtml
 HTML robi <br><br><br><br>
 
 <?php
@@ -87,7 +87,7 @@ Każda linia kodu w php __musi kończyć się `;`__
 Zmienna przechowuje wartość, na przykład ciąg znaków (*string*), liczbę. Wartość zmiennej można zmieniać podczas wykonywania skryptu. Nazwa zmiennej musi zaczynać się od `$`, może zawierać liczby, litery i `_`.
 
 przykłady
-```php
+```phtml
 <?php
 $a = 10;
 $b = 10;
@@ -99,7 +99,7 @@ $c = $a * $b; // wartość $c to 100
 
 string - ciąg znaków.
 
-```php
+```phtml
 <?php
 $number = 10;
 $string = 'jakis tekst';
@@ -118,7 +118,7 @@ $newString = $string . ' i więcej tekstu i liczba ' . $number;
 ```
 
 ### Wyświetlanie na stronie
-```php
+```phtml
 <?php
 echo $zmienna;
 print($zmienna)
@@ -129,14 +129,14 @@ print($zmienna)
 <?= $zmienna ?>
 ```
 > Istnieje tag PHP dedykowany do przekazywania treści na stronę, otwiera się go `<?=` i zamyka standardowo dla PHP `?>`
-> ```php
+> ```phtml
 > <?php $a = 10; $b = 20; ?>
 > <?= $a + $b ?> // 30
 > <?= 'Hello from PHP' ?>
 > ```
 
 > Można zapisać parę "linijek" obok siebie, dla interpretera ważne są `;`, nie znaki nowej lini
-> ```php
+> ```phtml
 > <?php
 > $zmienna = 'tekst';
 > echo $zmienna;
@@ -151,7 +151,7 @@ Instrukcję `if` wykorzystujemy wtedy gdy do wykonania działania potrzebne jest
 
 Składnia instrukcji `if`
 
-```php
+```phtml
 <?php
 
 if(true) {
@@ -169,7 +169,7 @@ Jeżeli chcemy sprawdzić czy zmienna jest równa jakiejś wartości bądź ci
 
 Przykłady
 
-```php
+```phtml
 <?php
 if($a > 0) echo 'jestem większa od zera';
 elseif($a < 0) echo 'jestem mniejsza od zera';
@@ -251,7 +251,7 @@ sposób przekazania na maila `[action="mailto:mail@address.com]`.
 
 ## przechwytywanie w PHP zawartości formularza
 
-```php
+```phtml
 <form method="POST">
     <input name="username"> <!-- type="text" jest wartością domyślną, po atrybucie name odnosimy się w php -->
     <button type="submit">Wyślij</button>
@@ -266,7 +266,7 @@ if(isset($_POST['username'])) { // sprawdzamy czy użytkownik nas nie troluje i 
 
 ## PHP Pętla for
 
-```php
+```phtml
 <?php
 
 for($i = 0; $i < 10; i++) {
