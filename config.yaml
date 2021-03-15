@@ -10,3 +10,5 @@ params:
 markup: 
   highlight: 
     style: dracula
+taxonomies: {}
+disableKinds: ['section']
