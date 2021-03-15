@@ -27,7 +27,7 @@ title: Niemiecki
 Ich fahre gern  Ski order Snowboard
 
 
-Ich finde historishe Romane super
+Ich finde historische Romane super
 
 > Napisać co lubię robić w wolnym czasie i zrobić stronę 69
 
@@ -41,14 +41,14 @@ Maine Lieblingsjahreszeit ist der Summer. Es ist warm. Ich grillen gern.
 ## Lernen - ein Leben lang
 ## Ich kann den Reifen nich richtig
 
-Czas przeszły perfect jest czasem złożonym. Składa się z czasownika posiłkowego haben lub zeign odmienianego w czasie teraźniejszym. oraz z imiesłowu czasu przeszłego Partzip II ktory jest formą nie odmienną i występuje na samym końcu zdania.
+Czas przeszły perfect jest czasem złożonym. Składa się z czasownika posiłkowego haben lub sein odmienianego w czasie teraźniejszym. oraz z imiesłowu czasu przeszłego Partizip II który jest formą nie odmienną i występuje na samym końcu zdania.
 
 Przykłady:
 
 Zrobiłem zadanie domowe - Ich habe die Hausaufgabe gemacht.
 Poszedłem do domu - Ich bin nach Hause gegangen.
 
-Perfect z czasownikiem posiłowkym haben. Wiekszość czasowników w języku niemieckim tworzy Perfect z czasownikiem posiłkowym haben, są to przede wszystkim:
+Perfect z czasownikiem posiłkowym haben. Większość czasowników w języku niemieckim tworzy Perfect z czasownikiem posiłkowym haben, są to przede wszystkim:
 1. Wszystkie czasowniki wymagające dopełnienia w bierniku (widziałem dyrektora - Ich habe den Direktor gesehen).
 2. Wszystkie czasowniki zwrotne. (Du hast dich gefreut)
 	- sich treffen
@@ -66,31 +66,31 @@ Perfect z czasownikiem posiłowkym haben. Wiekszość czasowników w języku nie
 		- es kommt vor
 
 
-Czas przeszły perfect jest czasem złożonym, składa się z czasownika posiłkowego "haben" lub "zeign" w czasie teraźniejszym które są odmienne oraz z trzeciej formy podstawowej czasownika, to znaczy imiesłowu czasu przeszłego (Partizip II). Który jest formą nie odmienną i występuje w zdaniach oznajmujących i pytających, na końcu zdania. Perfect występuje z reguły w rozmowach i dialogach bezpośrednich, w których mówi się o sobie lub o innych osobach.
+Czas przeszły perfect jest czasem złożonym, składa się z czasownika posiłkowego "haben" lub "sein" w czasie teraźniejszym które są odmienne oraz z trzeciej formy podstawowej czasownika, to znaczy imiesłowu czasu przeszłego (Partizip II). Który jest formą nie odmienną i występuje w zdaniach oznajmujących i pytających, na końcu zdania. Perfect występuje z reguły w rozmowach i dialogach bezpośrednich, w których mówi się o sobie lub o innych osobach.
 
-Es hat die ganze Nacht geschneit. - Całą noc padał śniego.
+Es hat die ganze Nacht geschneit. - Całą noc padał śnieg.
 
-Wir sind nach Deutshcland gefahren. - Pojechaliśmy do Niemiec.
+Wir sind nach Deutschland gefahren. - Pojechaliśmy do Niemiec.
 
-### Perfect z czasownikiem posiłowym haben
+### Perfect z czasownikiem posiłkowym haben
 
-Większość czasowników w języku niemieckim tworzy perfect z czasownikiem posiłkowym haben. Są to przedewszystkim:
-- Wszystkie czasowniki przechodnie - czyli takie które wymagają dopełnienia w bierniki "Icha haben dich gesehen" (widziałem/widziałam ciebie)
+Większość czasowników w języku niemieckim tworzy perfect z czasownikiem posiłkowym haben. Są to przede wszystkim:
+- Wszystkie czasowniki przechodnie - czyli takie które wymagają dopełnienia w bierniki "Ich haben dich gesehen" (widziałem/widziałam ciebie)
 - Wszystkie czasowniki zwrotne 
-	- sich washen 
+	- sich waschen 
 	- sich treffen
 	- sich freuen
-	- Du hast dich sehr grfreut - cieszyłeś się,
+	- Du hast dich sehr gefreut - cieszyłeś się,
 - Wszystkie czasowniki modalne
 	- Ich habe es nicht gewollt - (nie chciałem / nie chciałam tego)
-- Czasowniki które nie wyrażają ruchu / kierunku, lecz przedewszystkim trwanie czynności lub stanu
+- Czasowniki które nie wyrażają ruchu / kierunku, lecz przede wszystkim trwanie czynności lub stanu
 	- Dass Kind hat zehn Studen geschlafen (dziecko spało dziesięć godzin)
 - Czasowniki nie osobowe
-	- es schneit - pada śniego
+	- es schneit - pada śnieg
 	- es regnet - pada deszcz
 	- es hagelt - pada grad
-	- es gitb
-	- es gafelt
+	- es gibt
+	- es gafel
 	- Es hat mir dort sehr gut gefallen (bardzo mi sie tam podobało)
 
 #### Wyjątki
@@ -100,8 +100,8 @@ Większość czasowników w języku niemieckim tworzy perfect z czasownikiem po
 
 Was ist passiert? (Co się stało?)
 
-#### Perfect z czasownikiem posiłkowym zeign
-1. Czasowniki które wyrażają ruch / kierunek, a więc przedewszystkim czasowniki typu gehen, kommen, reisen, springen, laufen
+#### Perfect z czasownikiem posiłkowym sein
+1. Czasowniki które wyrażają ruch / kierunek, a więc przede wszystkim czasowniki typu gehen, kommen, reisen, springen, laufen
 	> fahren - jechać (łączy się z sein) / kierować (łączy się z haben)
 	>
 	> Ich bin mit dem Auto gefahren. - Jadę samochodem (jako pasażer)
@@ -122,3 +122,7 @@ Was ist passiert? (Co się stało?)
 machen -> mach + en -> ge + mach + t
 
 Ich mache die Aufgabe. (robię zadanie domowe) -> Ich habe die Aufgabe gemacht.
+
+### Czasowniki
+
+| Infinitiv | Pr
