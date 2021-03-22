@@ -125,4 +125,35 @@ Ich mache die Aufgabe. (robię zadanie domowe) -> Ich habe die Aufgabe gemacht.
 
 ### Czasowniki
 
-| Infinitiv | Pr
+| Tłumaczenie     | Infinitiv     | Präsens         | Partizip II      |
+| --------------- | ------------- | --------------- | ---------------- |
+| piec            | backen        | er bäckt/back   | gebacken         |
+| rozkazywać      | befehlen      | er befiehlt     | befohlen         |
+| zaczynać        | beginnen      | -               | begonnen         |
+| gryźć           | beißen        | -               | gebissen         |
+| udowadniać      | beweisen      | -               | bewiesen         |
+| ubiegać się     | bewerben sich | er bewirbt sich | beworben         |
+| wygiąć, skręcić | biegen        | -               | has/ist gebogen  |
+| oferować        | bieten        | -               | geboten          |
+| wiązać          | binden        | -               | gebunden         |
+| prosić          | bitten        | -               | gebeten          |
+| pozostawać      | bleiben       | -               | ist geblieben    |
+| smażyć, piec    | braten        | er brät         | gebraten         |
+| przyjmować      | empfangen     | er empfängt     | empfangen        |
+| polecać         | empfehlen     | er empfiehlt    | empfohlen        |
+| decydować       | entscheiden   | -               | entschieden      |
+| jeść            | essen         | er isst         | gegessen         |
+| jechać, wieźć   | fahren        | er fährt        | ist/hat gefahren |
+| upaść           | fallen        | er fällt        | ist gefallen     |
+| łapać           | fangen        | er fängt        | gefangen         |
+| znajdować       | finden        | -               | gefunden         |
+| latać           | fliegen       | -               | ist geflogen     |
+| marznąć         | frieren       | -               | gefroren         |
+| dawać           | geben         | er gibt         | gegeben          |
+| iść             | gehen         | -               | ist gegangen     |
+| udać się        | gelingen      | -               | ist gelungen     |
+| mieć ważność    | gelten        | -               | gegolten         |
+| jeść zażywać    | genießen      | -               | genossen         |
+| zdarzyć się     | geschehen     | es geschieht    | ist geschehen    |
+| wygrać          | gewinnen      | -               | gewonnen         |
+| podlewać        | gießen        | -               | gegossen         |
