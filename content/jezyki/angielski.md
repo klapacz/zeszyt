@@ -288,3 +288,19 @@ Marcus - He want to go The London Eye, He reject speedboat because of cost.
 > If I were you I wouldn't do that. 
 > page 76, exercise 6, 7 page 131, exercise 1-4
 > words page 85
+
+1. Ten dom został zbudowany w 1990 roku.
+
+	This house was built in 1990.
+2. Tą potrawę robi się z ryżu.
+
+	This dish is made of rice.
+3. Te filmy zostały pokazane w hollywood dwa lata temu.
+
+	These movies were shown in Hollywood two years ago.
+4. Ta maszyna może byc używana przez każdego.
+
+	This machine can be used by anyone.
+5. Ten samochód nie był produkowany od 1980 roku.
+
+	This car has not been produced since 1980.
