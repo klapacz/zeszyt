@@ -15,10 +15,17 @@ footer {
 
 .anchor {
 	position: absolute;
+	padding: 0 .5em;
 	transform: translateX(-100%);
-	display: none;
+	opacity: 0;
+	text-decoration: none;
+	
+	&::before {
+		content: '§';
+	}
 }
 
 *:hover > .anchor {
+	opacity: 1;
 	display: block;
 }
