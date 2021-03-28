@@ -127,49 +127,49 @@ Ich mache die Aufgabe. (robię zadanie domowe) -> Ich habe die Aufgabe gemacht.
 
 | Tłumaczenie                | Infinitiv     | Präsens         | Partizip II      |
 | -------------------------- | ------------- | --------------- | ---------------- |
-| piec                       | backen        | er bäckt/back   | gebacken         |
-| rozkazywać                 | befehlen      | er befiehlt     | befohlen         |
-| zaczynać                   | beginnen      | -               | begonnen         |
-| gryźć                      | beißen        | -               | gebissen         |
-| udowadniać                 | beweisen      | -               | bewiesen         |
-| ubiegać się                | bewerben sich | er bewirbt sich | beworben         |
-| wygiąć, skręcić            | biegen        | -               | has/ist gebogen  |
-| oferować                   | bieten        | -               | geboten          |
-| wiązać                     | binden        | -               | gebunden         |
-| prosić                     | bitten        | -               | gebeten          |
-| pozostawać                 | bleiben       | -               | ist geblieben    |
-| smażyć, piec               | braten        | er brät         | gebraten         |
-| przyjmować                 | empfangen     | er empfängt     | empfangen        |
-| polecać                    | empfehlen     | er empfiehlt    | empfohlen        |
-| decydować                  | entscheiden   | -               | entschieden      |
-| jeść                       | essen         | er isst         | gegessen         |
-| jechać, wieźć              | fahren        | er fährt        | ist/hat gefahren |
-| upaść                      | fallen        | er fällt        | ist gefallen     |
-| łapać                      | fangen        | er fängt        | gefangen         |
-| znajdować                  | finden        | -               | gefunden         |
-| latać                      | fliegen       | -               | ist geflogen     |
-| marznąć                    | frieren       | -               | gefroren         |
-| dawać                      | geben         | er gibt         | gegeben          |
-| iść                        | gehen         | -               | ist gegangen     |
-| udać się                   | gelingen      | -               | ist gelungen     |
-| mieć ważność               | gelten        | -               | gegolten         |
-| jeść zażywać               | genießen      | -               | genossen         |
-| zdarzyć się                | geschehen     | es geschieht    | ist geschehen    |
-| wygrać                     | gewinnen      | -               | gewonnen         |
-| podlewać                   | gießen        | -               | gegossen         |
-| wisieć                     | hängen        | -               | gehangen         |
-| nazywać się                | heißen        | -               | geheißen         |
-| pomagać                    | helfen        | er hilft        | geholfen         |
-| brzmieć                    | klingen       | -               | geklungen        |
-| przychodzić                | kommen        | -               | ist gekommen     |
-| ładować                    | laden         | er lädt         | geladen          |
-| kazać, pozwalać, zostawiać | lassen        | er lässt        | gelassen         |
 | biec                       | laufen        | er läuft        | ist gelaufen     |
-| cierpieć                   | leiden        | -               | gelitten         |
-| pożyczać                   | leihen        | -               | geliehen         |
-| czytać                     | lesen         | er liest        | gelesen          |
-| leżeć                      | liegen        | -               | gelegen          |
-| kłamać                     | lügen         | -               | gelogen          |
-| mierzyć                    | messen        | er misst        | gemessen         |
 | brać                       | nehmen        | er nimmt        | genommen         |
+| brzmieć                    | klingen       | -               | geklungen        |
+| cierpieć                   | leiden        | -               | gelitten         |
+| czytać                     | lesen         | er liest        | gelesen          |
+| dawać                      | geben         | er gibt         | gegeben          |
+| decydować                  | entscheiden   | -               | entschieden      |
+| gryźć                      | beißen        | -               | gebissen         |
 | gwizdać                    | pfeifen       | -               | gepfiffen        |
+| iść                        | gehen         | -               | ist gegangen     |
+| jechać, wieźć              | fahren        | er fährt        | ist/hat gefahren |
+| jeść                       | essen         | er isst         | gegessen         |
+| jeść zażywać               | genießen      | -               | genossen         |
+| kazać, pozwalać, zostawiać | lassen        | er lässt        | gelassen         |
+| kłamać                     | lügen         | -               | gelogen          |
+| latać                      | fliegen       | -               | ist geflogen     |
+| leżeć                      | liegen        | -               | gelegen          |
+| ładować                    | laden         | er lädt         | geladen          |
+| łapać                      | fangen        | er fängt        | gefangen         |
+| marznąć                    | frieren       | -               | gefroren         |
+| mierzyć                    | messen        | er misst        | gemessen         |
+| mieć ważność               | gelten        | -               | gegolten         |
+| nazywać się                | heißen        | -               | geheißen         |
+| oferować                   | bieten        | -               | geboten          |
+| piec                       | backen        | er bäckt/back   | gebacken         |
+| podlewać                   | gießen        | -               | gegossen         |
+| polecać                    | empfehlen     | er empfiehlt    | empfohlen        |
+| pomagać                    | helfen        | er hilft        | geholfen         |
+| pozostawać                 | bleiben       | -               | ist geblieben    |
+| pożyczać                   | leihen        | -               | geliehen         |
+| prosić                     | bitten        | -               | gebeten          |
+| przychodzić                | kommen        | -               | ist gekommen     |
+| przyjmować                 | empfangen     | er empfängt     | empfangen        |
+| rozkazywać                 | befehlen      | er befiehlt     | befohlen         |
+| smażyć, piec               | braten        | er brät         | gebraten         |
+| ubiegać się                | bewerben sich | er bewirbt sich | beworben         |
+| udać się                   | gelingen      | -               | ist gelungen     |
+| udowadniać                 | beweisen      | -               | bewiesen         |
+| upaść                      | fallen        | er fällt        | ist gefallen     |
+| wisieć                     | hängen        | -               | gehangen         |
+| wiązać                     | binden        | -               | gebunden         |
+| wygiąć, skręcić            | biegen        | -               | has/ist gebogen  |
+| wygrać                     | gewinnen      | -               | gewonnen         |
+| zaczynać                   | beginnen      | -               | begonnen         |
+| zdarzyć się                | geschehen     | es geschieht    | ist geschehen    |
+| znajdować                  | finden        | -               | gefunden         |
