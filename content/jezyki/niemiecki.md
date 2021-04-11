@@ -178,58 +178,58 @@ Ich mache die Aufgabe. (robię zadanie domowe) -> Ich habe die Aufgabe gemacht.
 
 | Tłumaczenie           | Infinitiv      | Präsens        | Partizip II        |
 | --------------------- | -------------- | -------------- | ------------------ |
-| radzić                | raten          | er rät         | geraten (h)        |
-| rwać                  | reißen         | -              | gerissen (h)       |
-| jeździć konno         | reiten         | -              | geritten (s)       |
-| wąchać                | riechen        | -              | gerochen (h)       |
-| wołać                 | rufen          | -              | gerufen (h)        |
-| stworzyć              | schaffen       | -              | geschaffen (h)     |
-| świecić               | scheinen       | -              | geschienen (h)     |
-| popychać, przesuwać   | schieben       | -              | geschoben (h)      |
-| strzelać              | schießen       | -              | geschossen (h)     |
-| spać                  | schlafen       | er schläft     | geschlafen (h)     |
 | bić                   | schlagen       | er schlägt     | geschlagen (h)     |
-| zamykać               | schließen      | -              | geschlossen (h)    |
-| wyrzucać              | schmeißen      | -              | geschmissen        |
-| stopić (się)          | schmelzen      | er schmilzt    | geschmolzen (h/s)  |
-| ciąć, kroić           | schneiden      | -              | geschnitten (h)    |
-| pisać                 | schreiben      | -              | geschrieben (h)    |
-| krzyczeć              | schreien       | -              | geschrien (h)      |
-| milczeć               | schweigen      | -              | geschwiegen (h)    |
-| pływać                | schwimmen      | -              | geschwommen (s/h)  |
-| widzieć               | sehen          | er sieht       | gesehen (h)        |
 | być                   | sein           | er ist         | gewesen (s)        |
-| śpiewać               | singen         | -              | gesungen (h)       |
-| siedzieć              | sitzen         | -              | gesessen (h)       |
-| rozmawiać             | sprechen       | er spricht     | gesprochen (h)     |
-| skakać                | springen       | -              | gesprungen (s)     |
-| stać                  | stehen         | -              | gestanden (h)      |
-| kraść                 | stehlen        | er stiehlt     | gestohlen (h)      |
-| wspinać się           | klimmen        | -              | geklommen (s)      |
-| umierać               | sterben        | er stirbt      | gestorben (s)      |
-| popychać              | stoßen         | er stößt       | gestoßen (h)       |
-| skreślać, malować     | streichen      | -              | gestrichen (h)     |
-| kłócić się            | streiten       | -              | gestritten (h)     |
-| nosić                 | tragen         | er trägt       | getragen (h)       |
-| spotykać              | treffen        | er trifft      | getroffen (h)      |
-| pędzić                | treiben        | -              | getrieben (h)      |
-| deptać                | treten         | er tritt       | getreten (h/s)     |
-| pić                   | trinken        | -              | getrunken (h)      |
-| czynić                | tun            | er tut         | getan (h)          |
-| przerywać             | unterbrechen   | er unterbricht | unterbrochen (h)   |
-| podpisywać            | unterschreiben | -              | unterschrieben (h) |
-| psuć (się)            | verderben      | er verdirbt    | verdorben (h/s)    |
-| zapominać             | vergessen      | er vergisst    | vergessen (h)      |
-| porównać              | vergleichen    | -              | verglichen (h)     |
-| zgubić, przegrać      | verlieren      | -              | verloren (h)       |
-| unikać                | vermeiden      | -              | vermieden (h)      |
-| zniknąć               | verschwinden   | -              | verschwunden (s)   |
-| przebaczyć            | verseichen     | -              | versiechen (h)     |
-| rosnąć                | waschen        | er wäscht      | gewaschen (s)      |
-| myć                   | waschen        | er wäscht      | gewaschen (h)      |
-| zjednywać, reklamować | werben         | er wirbt       | geworben (h)       |
-| stawać się            | werden         | er wird        | geworden (s)       |
-| rzucać                | werfen         | er wirft       | geworfen (h)       |
-| ważyć                 | wiegen         | -              | gewogen (h)        |
 | ciągnąć               | ziehen         | -              | gezogen (h)        |
+| ciąć, kroić           | schneiden      | -              | geschnitten (h)    |
+| czynić                | tun            | er tut         | getan (h)          |
+| deptać                | treten         | er tritt       | getreten (h/s)     |
+| jeździć konno         | reiten         | -              | geritten (s)       |
+| kraść                 | stehlen        | er stiehlt     | gestohlen (h)      |
+| krzyczeć              | schreien       | -              | geschrien (h)      |
+| kłócić się            | streiten       | -              | gestritten (h)     |
+| milczeć               | schweigen      | -              | geschwiegen (h)    |
+| myć                   | waschen        | er wäscht      | gewaschen (h)      |
+| nosić                 | tragen         | er trägt       | getragen (h)       |
+| pisać                 | schreiben      | -              | geschrieben (h)    |
+| pić                   | trinken        | -              | getrunken (h)      |
+| podpisywać            | unterschreiben | -              | unterschrieben (h) |
+| popychać              | stoßen         | er stößt       | gestoßen (h)       |
+| popychać, przesuwać   | schieben       | -              | geschoben (h)      |
+| porównać              | vergleichen    | -              | verglichen (h)     |
+| przebaczyć            | verseichen     | -              | versiechen (h)     |
+| przerywać             | unterbrechen   | er unterbricht | unterbrochen (h)   |
+| psuć (się)            | verderben      | er verdirbt    | verdorben (h/s)    |
+| pędzić                | treiben        | -              | getrieben (h)      |
+| pływać                | schwimmen      | -              | geschwommen (s/h)  |
+| radzić                | raten          | er rät         | geraten (h)        |
+| rosnąć                | waschen        | er wäscht      | gewaschen (s)      |
+| rozmawiać             | sprechen       | er spricht     | gesprochen (h)     |
+| rwać                  | reißen         | -              | gerissen (h)       |
+| rzucać                | werfen         | er wirft       | geworfen (h)       |
+| siedzieć              | sitzen         | -              | gesessen (h)       |
+| skakać                | springen       | -              | gesprungen (s)     |
+| skreślać, malować     | streichen      | -              | gestrichen (h)     |
+| spać                  | schlafen       | er schläft     | geschlafen (h)     |
+| spotykać              | treffen        | er trifft      | getroffen (h)      |
+| stawać się            | werden         | er wird        | geworden (s)       |
+| stać                  | stehen         | -              | gestanden (h)      |
+| stopić (się)          | schmelzen      | er schmilzt    | geschmolzen (h/s)  |
+| strzelać              | schießen       | -              | geschossen (h)     |
+| stworzyć              | schaffen       | -              | geschaffen (h)     |
+| śpiewać               | singen         | -              | gesungen (h)       |
+| świecić               | scheinen       | -              | geschienen (h)     |
+| umierać               | sterben        | er stirbt      | gestorben (s)      |
+| unikać                | vermeiden      | -              | vermieden (h)      |
+| ważyć                 | wiegen         | -              | gewogen (h)        |
+| widzieć               | sehen          | er sieht       | gesehen (h)        |
+| wołać                 | rufen          | -              | gerufen (h)        |
+| wspinać się           | klimmen        | -              | geklommen (s)      |
+| wyrzucać              | schmeißen      | -              | geschmissen        |
+| wąchać                | riechen        | -              | gerochen (h)       |
+| zamykać               | schließen      | -              | geschlossen (h)    |
+| zapominać             | vergessen      | er vergisst    | vergessen (h)      |
+| zgubić, przegrać      | verlieren      | -              | verloren (h)       |
+| zjednywać, reklamować | werben         | er wirbt       | geworben (h)       |
 | zmuszać               | zwingen        | -              | gezwungen (h)      |
+| zniknąć               | verschwinden   | -              | verschwunden (s)   |
