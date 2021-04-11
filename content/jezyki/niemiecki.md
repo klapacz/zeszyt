@@ -107,7 +107,7 @@ Was ist passiert? (Co się stało?)
 	> Ich bin mit dem Auto gefahren. - Jadę samochodem (jako pasażer)
 	> Ich fahre das Auto. - Prowadzę autem (kierowca)
 
-2. Czasowniki wyrażające zmianę w zdaniu, przejście z jednego stanu w drugi
+2. czasowniki wyrażające zmianę w zdaniu, przejście z jednego stanu w drugi
 	> einschlafen - zasypiać
 	> aufwachen - budzić się
 	> erkranken - zachorować
@@ -173,3 +173,63 @@ Ich mache die Aufgabe. (robię zadanie domowe) -> Ich habe die Aufgabe gemacht.
 | zaczynać                   | beginnen      | -               | begonnen         |
 | zdarzyć się                | geschehen     | es geschieht    | ist geschehen    |
 | znajdować                  | finden        | -               | gefunden         |
+
+### Czasowniki, część druga
+
+| Tłumaczenie           | Infinitiv      | Präsens        | Partizip II        |
+| --------------------- | -------------- | -------------- | ------------------ |
+| radzić                | raten          | er rät         | geraten (h)        |
+| rwać                  | reißen         | -              | gerissen (h)       |
+| jeździć konno         | reiten         | -              | geritten (s)       |
+| wąchać                | riechen        | -              | gerochen (h)       |
+| wołać                 | rufen          | -              | gerufen (h)        |
+| stworzyć              | schaffen       | -              | geschaffen (h)     |
+| świecić               | scheinen       | -              | geschienen (h)     |
+| popychać, przesuwać   | schieben       | -              | geschoben (h)      |
+| strzelać              | schießen       | -              | geschossen (h)     |
+| spać                  | schlafen       | er schläft     | geschlafen (h)     |
+| bić                   | schlagen       | er schlägt     | geschlagen (h)     |
+| zamykać               | schließen      | -              | geschlossen (h)    |
+| wyrzucać              | schmeißen      | -              | geschmissen        |
+| stopić (się)          | schmelzen      | er schmilzt    | geschmolzen (h/s)  |
+| ciąć, kroić           | schneiden      | -              | geschnitten (h)    |
+| pisać                 | schreiben      | -              | geschrieben (h)    |
+| krzyczeć              | schreien       | -              | geschrien (h)      |
+| milczeć               | schweigen      | -              | geschwiegen (h)    |
+| pływać                | schwimmen      | -              | geschwommen (s/h)  |
+| widzieć               | sehen          | er sieht       | gesehen (h)        |
+| być                   | sein           | er ist         | gewesen (s)        |
+| śpiewać               | singen         | -              | gesungen (h)       |
+| siedzieć              | sitzen         | -              | gesessen (h)       |
+| rozmawiać             | sprechen       | er spricht     | gesprochen (h)     |
+| skakać                | springen       | -              | gesprungen (s)     |
+| stać                  | stehen         | -              | gestanden (h)      |
+| kraść                 | stehlen        | er stiehlt     | gestohlen (h)      |
+| wspinać się           | klimmen        | -              | geklommen (s)      |
+| umierać               | sterben        | er stirbt      | gestorben (s)      |
+| popychać              | stoßen         | er stößt       | gestoßen (h)       |
+| skreślać, malować     | streichen      | -              | gestrichen (h)     |
+| kłócić się            | streiten       | -              | gestritten (h)     |
+| nosić                 | tragen         | er trägt       | getragen (h)       |
+| spotykać              | treffen        | er trifft      | getroffen (h)      |
+| pędzić                | treiben        | -              | getrieben (h)      |
+| deptać                | treten         | er tritt       | getreten (h/s)     |
+| pić                   | trinken        | -              | getrunken (h)      |
+| czynić                | tun            | er tut         | getan (h)          |
+| przerywać             | unterbrechen   | er unterbricht | unterbrochen (h)   |
+| podpisywać            | unterschreiben | -              | unterschrieben (h) |
+| psuć (się)            | verderben      | er verdirbt    | verdorben (h/s)    |
+| zapominać             | vergessen      | er vergisst    | vergessen (h)      |
+| porównać              | vergleichen    | -              | verglichen (h)     |
+| zgubić, przegrać      | verlieren      | -              | verloren (h)       |
+| unikać                | vermeiden      | -              | vermieden (h)      |
+| zniknąć               | verschwinden   | -              | verschwunden (s)   |
+| przebaczyć            | verseichen     | -              | versiechen (h)     |
+| rosnąć                | waschen        | er wäscht      | gewaschen (s)      |
+| myć                   | waschen        | er wäscht      | gewaschen (h)      |
+| zjednywać, reklamować | werben         | er wirbt       | geworben (h)       |
+| stawać się            | werden         | er wird        | geworden (s)       |
+| rzucać                | werfen         | er wirft       | geworfen (h)       |
+| ważyć                 | wiegen         | -              | gewogen (h)        |
+| ciągnąć               | ziehen         | -              | gezogen (h)        |
+| zmuszać               | zwingen        | -              | gezwungen (h)      |
