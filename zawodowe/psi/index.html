@@ -1,11 +1,40 @@
-<!doctype html><html lang=pl><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=author content="Korneliusz Łapacz"><meta name=description content="Na tej stronie znajdują się moje notatki z lekcji"><title>PSI &ndash; Zeszyt Kornela</title><link rel=stylesheet href=https://zeszyt.lapacz-kornel.dev/scss/main.css></head><body><header><h1>PSI</h1><p>Projektowanie Stron Internetowych</p></header><article><h2 id=lekcja-organizacyjna><a href=#lekcja-organizacyjna class=anchor aria-hidden=true></a>Lekcja organizacyjna</h2><p>Zapoznanie się z:</p><ul><li>PSO</li><li>regulaminem pracowni komputerowej</li><li>programem nauczania</li></ul><h2 id=html-szablon-strony><a href=#html-szablon-strony class=anchor aria-hidden=true></a>HTML, szablon strony</h2><blockquote><p>HTML - Hyper Text Markup Language (Hipertekstowy język znaczników)</p></blockquote><p>Język HTML jest zbiorem znaczników (tagów) które są odpowiednio interpretowane przez przeglądarkę.</p><p>Tag (znacznik) HTML:</p><div class=highlight><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html>&lt;<span style=color:#ff79c6>tag</span> <span style=color:#50fa7b>atrybut</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;wartość&#34;</span>&gt;Zawartość&lt;/<span style=color:#ff79c6>tag</span>&gt;
+<!doctype html><html lang=pl>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=author content="Korneliusz Łapacz">
+<meta name=description content="Na tej stronie znajdują się moje notatki z lekcji">
+<title>
+PSI &ndash; Zeszyt Kornela
+</title>
+<link rel=stylesheet href=https://zeszyt.lapacz-kornel.dev/scss/main.css>
+</head>
+<body>
+<header>
+<h1>PSI</h1>
+<p>Projektowanie Stron Internetowych</p>
+</header>
+<article>
+<h2 id=lekcja-organizacyjna><a href=#lekcja-organizacyjna class=anchor aria-hidden=true></a>Lekcja organizacyjna</h2><p>Zapoznanie się z:</p>
+<ul>
+<li>PSO</li>
+<li>regulaminem pracowni komputerowej</li>
+<li>programem nauczania</li>
+</ul>
+<h2 id=html-szablon-strony><a href=#html-szablon-strony class=anchor aria-hidden=true></a>HTML, szablon strony</h2><blockquote>
+<p>HTML - Hyper Text Markup Language (Hipertekstowy język znaczników)</p>
+</blockquote>
+<p>Język HTML jest zbiorem znaczników (tagów) które są odpowiednio interpretowane przez przeglądarkę.</p>
+<p>Tag (znacznik) HTML:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html>&lt;<span style=color:#ff79c6>tag</span> <span style=color:#50fa7b>atrybut</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;wartość&#34;</span>&gt;Zawartość&lt;/<span style=color:#ff79c6>tag</span>&gt;
 
 na przykład:
 &lt;<span style=color:#ff79c6>button</span> <span style=color:#50fa7b>type</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;submit&#34;</span>&gt;wykonaj&lt;/<span style=color:#ff79c6>button</span>&gt;
 
 komentarze są ignorowane przez przeglądarkę:
 <span style=color:#6272a4>&lt;!-- tekst komentarza --&gt;</span>
-</code></pre></div><p>Szablon strony (część tagów opcjonalna)</p><div class=highlight><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html><span style=color:#ff79c6>&lt;!DOCTYPE html&gt;</span> <span style=color:#6272a4>&lt;!-- Znacznik opisujący wersję użytego HTMLa, w tym przypadku najnowszy HTML 5  --&gt;</span>
+</code></pre></div><p>Szablon strony (część tagów opcjonalna)</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html><span style=color:#ff79c6>&lt;!DOCTYPE html&gt;</span> <span style=color:#6272a4>&lt;!-- Znacznik opisujący wersję użytego HTMLa, w tym przypadku najnowszy HTML 5  --&gt;</span>
 &lt;<span style=color:#ff79c6>html</span> <span style=color:#50fa7b>lang</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;en&#34;</span>&gt; <span style=color:#6272a4>&lt;!-- Główny tag, w którym zawiera się cała strona --&gt;</span>
 &lt;<span style=color:#ff79c6>head</span>&gt; <span style=color:#6272a4>&lt;!-- zawartość head jest nie widoczna --&gt;</span>
     &lt;<span style=color:#ff79c6>meta</span> <span style=color:#50fa7b>charset</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;UTF-8&#34;</span>&gt; <span style=color:#6272a4>&lt;!-- zapewnia poprawne wyświetlanie tekstu (np. polskie znaki) --&gt;</span>
@@ -17,25 +46,37 @@ komentarze są ignorowane przez przeglądarkę:
     <span style=color:#6272a4>&lt;!-- zawartość strony --&gt;</span>
 &lt;/<span style=color:#ff79c6>body</span>&gt;
 &lt;/<span style=color:#ff79c6>html</span>&gt;
-</code></pre></div><p>najczęściej używane tagi (należy umieścć w sekcji <code>body</code>):</p><div class=highlight><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html>&lt;<span style=color:#ff79c6>div</span>&gt;Podstawowy element strony&lt;/<span style=color:#ff79c6>div</span>&gt;
+</code></pre></div><p>najczęściej używane tagi (należy umieścć w sekcji <code>body</code>):</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html>&lt;<span style=color:#ff79c6>div</span>&gt;Podstawowy element strony&lt;/<span style=color:#ff79c6>div</span>&gt;
 &lt;<span style=color:#ff79c6>h1</span>&gt;Nagłówek pierwszego stopnia, istnieją nagłówki 1-6 &lt;<span style=color:#ff79c6>h1</span>&gt;`
 &lt;<span style=color:#ff79c6>p</span>&gt;paragraf (akapit)&lt;/<span style=color:#ff79c6>p</span>&gt;
 &lt;<span style=color:#ff79c6>i</span>&gt;italic text, pochylony&lt;/<span style=color:#ff79c6>i</span>&gt;
 &lt;<span style=color:#ff79c6>b</span>&gt;bold text, pogrubiony&lt;/<span style=color:#ff79c6>b</span>&gt;
-</code></pre></div><h2 id=wprowadzenie-do-php><a href=#wprowadzenie-do-php class=anchor aria-hidden=true></a>Wprowadzenie do PHP</h2><p>PHP to skryptowy język wykonywany po stronie serwer (interpreterem nie jest przeglądarka tylko serwer). Kod PHP jest nie jawny osoba odwiedzająca stronę nie może go zobaczyć, do użytkownika dociera tylko wygenerowany HTML. Jako serwer można wykorzystać na przykład <a href=https://www.apachefriends.org/index.html>XAMPP</a>, po zainstalowaniu należy uruchomić <code>C:\xampp\xampp-control.exe</code> i włączyć serwer <a href=https://en.wikipedia.org/wiki/Apache_HTTP_Server>Apache</a>. Stronę umieszczamy w katalogu <code>C:\xampp\htdocs</code>. Strona główna zawiera się w pliku <code>index.php</code>. Strona serwowana będzie pod adresem <code>localhost</code> (inaczej <code>127.0.0.1</code>)</p><blockquote><p>Alternatywnie można uruchomić <a href=https://www.php.net/manual/en/features.commandline.webserver.php>serwer developerki PHP</a> w dowolnym folderze komendą <code>php -S localhost:8080</code> i w przeglądarce przejść pod adres <code>localhost:8080</code></p></blockquote><p>Skrypty PHP mają rozszerzenie <code>.php</code>. Można wpisywać w nich HTML.</p><div class=highlight><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-phtml data-lang=phtml>&lt;<span style=color:#ff79c6>h1</span> <span style=color:#50fa7b>id</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;first-heading&#34;</span>&gt;HTML w PHP!!!&lt;/<span style=color:#ff79c6>h1</span>&gt;
-</code></pre></div><p>Kod PHP umieszcza się w specjalnych znacznikach, otwierającym <code>&lt;?php</code> i zamykającym <code>?></code></p><div class=highlight><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-phtml data-lang=phtml>HTML robi &lt;<span style=color:#ff79c6>br</span>&gt;&lt;<span style=color:#ff79c6>br</span>&gt;&lt;<span style=color:#ff79c6>br</span>&gt;&lt;<span style=color:#ff79c6>br</span>&gt;
+</code></pre></div><h2 id=wprowadzenie-do-php><a href=#wprowadzenie-do-php class=anchor aria-hidden=true></a>Wprowadzenie do PHP</h2><p>PHP to skryptowy język wykonywany po stronie serwer (interpreterem nie jest przeglądarka tylko serwer). Kod PHP jest nie jawny osoba odwiedzająca stronę nie może go zobaczyć, do użytkownika dociera tylko wygenerowany HTML. Jako serwer można wykorzystać na przykład <a href=https://www.apachefriends.org/index.html>XAMPP</a>, po zainstalowaniu należy uruchomić <code>C:\xampp\xampp-control.exe</code> i włączyć serwer <a href=https://en.wikipedia.org/wiki/Apache_HTTP_Server>Apache</a>. Stronę umieszczamy w katalogu <code>C:\xampp\htdocs</code>. Strona główna zawiera się w pliku <code>index.php</code>. Strona serwowana będzie pod adresem <code>localhost</code> (inaczej <code>127.0.0.1</code>)</p>
+<blockquote>
+<p>Alternatywnie można uruchomić <a href=https://www.php.net/manual/en/features.commandline.webserver.php>serwer developerki PHP</a> w dowolnym folderze komendą <code>php -S localhost:8080</code> i w przeglądarce przejść pod adres <code>localhost:8080</code></p>
+</blockquote>
+<p>Skrypty PHP mają rozszerzenie <code>.php</code>. Można wpisywać w nich HTML.</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-phtml data-lang=phtml>&lt;<span style=color:#ff79c6>h1</span> <span style=color:#50fa7b>id</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;first-heading&#34;</span>&gt;HTML w PHP!!!&lt;/<span style=color:#ff79c6>h1</span>&gt;
+</code></pre></div><p>Kod PHP umieszcza się w specjalnych znacznikach, otwierającym <code>&lt;?php</code> i zamykającym <code>?></code></p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-phtml data-lang=phtml>HTML robi &lt;<span style=color:#ff79c6>br</span>&gt;&lt;<span style=color:#ff79c6>br</span>&gt;&lt;<span style=color:#ff79c6>br</span>&gt;&lt;<span style=color:#ff79c6>br</span>&gt;
 
 <span style=color:#ff79c6>&lt;?php</span>
 <span style=color:#6272a4>// Tutaj Wpisuje się kod PHP, tak wygląda komentarz - jest ignorowany przez interpreter
 </span><span style=color:#6272a4></span><span style=color:#ff79c6>?&gt;</span>
 
 &lt;<span style=color:#ff79c6>p</span>&gt; tu może bć dalej HTML &lt;/<span style=color:#ff79c6>p</span>&gt;
-</code></pre></div><p>Można też użyć tylko tagu otwierającego <code>&lt;?php</code> na początku pliku i nie zamykać go, wtedy cały plik będzie wykonywany jako kod PHP.</p><p>Każda linia kodu w php <strong>musi kończyć się <code>;</code></strong></p><h3 id=zmienne><a href=#zmienne class=anchor aria-hidden=true></a>Zmienne</h3><p>Zmienna przechowuje wartość, na przykład ciąg znaków (<em>string</em>), liczbę. Wartość zmiennej można zmieniać podczas wykonywania skryptu. Nazwa zmiennej musi zaczynać się od <code>$</code>, może zawierać liczby, litery i <code>_</code>.</p><p>przykłady</p><div class=highlight><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-phtml data-lang=phtml><span style=color:#ff79c6>&lt;?php</span>
+</code></pre></div><p>Można też użyć tylko tagu otwierającego <code>&lt;?php</code> na początku pliku i nie zamykać go, wtedy cały plik będzie wykonywany jako kod PHP.</p>
+<p>Każda linia kodu w php <strong>musi kończyć się <code>;</code></strong></p>
+<h3 id=zmienne><a href=#zmienne class=anchor aria-hidden=true></a>Zmienne</h3><p>Zmienna przechowuje wartość, na przykład ciąg znaków (<em>string</em>), liczbę. Wartość zmiennej można zmieniać podczas wykonywania skryptu. Nazwa zmiennej musi zaczynać się od <code>$</code>, może zawierać liczby, litery i <code>_</code>.</p>
+<p>przykłady</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-phtml data-lang=phtml><span style=color:#ff79c6>&lt;?php</span>
 <span style=color:#8be9fd;font-style:italic>$a</span> <span style=color:#ff79c6>=</span> <span style=color:#bd93f9>10</span>;
 <span style=color:#8be9fd;font-style:italic>$b</span> <span style=color:#ff79c6>=</span> <span style=color:#bd93f9>10</span>;
 
 <span style=color:#8be9fd;font-style:italic>$c</span> <span style=color:#ff79c6>=</span> <span style=color:#8be9fd;font-style:italic>$a</span> <span style=color:#ff79c6>*</span> <span style=color:#8be9fd;font-style:italic>$b</span>; <span style=color:#6272a4>// wartość $c to 100
-</span></code></pre></div><h4 id=typy-zmiennych-działania-na-zmiennych><a href=#typy-zmiennych-dzia%c5%82ania-na-zmiennych class=anchor aria-hidden=true></a>Typy zmiennych, działania na zmiennych</h4><p>string - ciąg znaków.</p><div class=highlight><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-phtml data-lang=phtml><span style=color:#ff79c6>&lt;?php</span>
+</span></code></pre></div><h4 id=typy-zmiennych-działania-na-zmiennych><a href=#typy-zmiennych-dzia%c5%82ania-na-zmiennych class=anchor aria-hidden=true></a>Typy zmiennych, działania na zmiennych</h4><p>string - ciąg znaków.</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-phtml data-lang=phtml><span style=color:#ff79c6>&lt;?php</span>
 <span style=color:#8be9fd;font-style:italic>$number</span> <span style=color:#ff79c6>=</span> <span style=color:#bd93f9>10</span>;
 <span style=color:#8be9fd;font-style:italic>$string</span> <span style=color:#ff79c6>=</span> <span style=color:#f1fa8c>&#39;jakis tekst&#39;</span>;
 
@@ -50,7 +91,7 @@ komentarze są ignorowane przez przeglądarkę:
 </span><span style=color:#6272a4>    Operator kropki łączy stringi (ciągi znaków)
 </span><span style=color:#6272a4>    Tak wygląda komentarz wieloliniowy.
 </span><span style=color:#6272a4>*/</span>
-</code></pre></div><h3 id=wyświetlanie-na-stronie><a href=#wy%c5%9bwietlanie-na-stronie class=anchor aria-hidden=true></a>Wyświetlanie na stronie</h3><div class=highlight><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-phtml data-lang=phtml><span style=color:#ff79c6>&lt;?php</span>
+</code></pre></div><h3 id=wyświetlanie-na-stronie><a href=#wy%c5%9bwietlanie-na-stronie class=anchor aria-hidden=true></a>Wyświetlanie na stronie</h3><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-phtml data-lang=phtml><span style=color:#ff79c6>&lt;?php</span>
 <span style=color:#ff79c6>echo</span> <span style=color:#8be9fd;font-style:italic>$zmienna</span>;
 <span style=color:#ff79c6>print</span>(<span style=color:#8be9fd;font-style:italic>$zmienna</span>)
 <span style=color:#ff79c6>?&gt;</span>
@@ -58,16 +99,24 @@ komentarze są ignorowane przez przeglądarkę:
 &lt;<span style=color:#ff79c6>div</span>&gt;kod HTML może być pomiędzy różnymi tagami PHP &lt;/<span style=color:#ff79c6>div</span>&gt;
 
 <span style=color:#ff79c6>&lt;?</span><span style=color:#ff79c6>=</span> <span style=color:#8be9fd;font-style:italic>$zmienna</span> <span style=color:#ff79c6>?&gt;</span>
-</code></pre></div><blockquote><p>Istnieje tag PHP dedykowany do przekazywania treści na stronę, otwiera się go <code>&lt;?=</code> i zamyka standardowo dla PHP <code>?></code></p><div class=highlight><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-phtml data-lang=phtml><span style=color:#ff79c6>&lt;?php</span> <span style=color:#8be9fd;font-style:italic>$a</span> <span style=color:#ff79c6>=</span> <span style=color:#bd93f9>10</span>; <span style=color:#8be9fd;font-style:italic>$b</span> <span style=color:#ff79c6>=</span> <span style=color:#bd93f9>20</span>; <span style=color:#ff79c6>?&gt;</span>
+</code></pre></div><blockquote>
+<p>Istnieje tag PHP dedykowany do przekazywania treści na stronę, otwiera się go <code>&lt;?=</code> i zamyka standardowo dla PHP <code>?></code></p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-phtml data-lang=phtml><span style=color:#ff79c6>&lt;?php</span> <span style=color:#8be9fd;font-style:italic>$a</span> <span style=color:#ff79c6>=</span> <span style=color:#bd93f9>10</span>; <span style=color:#8be9fd;font-style:italic>$b</span> <span style=color:#ff79c6>=</span> <span style=color:#bd93f9>20</span>; <span style=color:#ff79c6>?&gt;</span>
 <span style=color:#ff79c6>&lt;?</span><span style=color:#ff79c6>=</span> <span style=color:#8be9fd;font-style:italic>$a</span> <span style=color:#ff79c6>+</span> <span style=color:#8be9fd;font-style:italic>$b</span> <span style=color:#ff79c6>?&gt;</span> // 30
 <span style=color:#ff79c6>&lt;?</span><span style=color:#ff79c6>=</span> <span style=color:#f1fa8c>&#39;Hello from PHP&#39;</span> <span style=color:#ff79c6>?&gt;</span>
-</code></pre></div></blockquote><blockquote><p>Można zapisać parę &ldquo;linijek&rdquo; obok siebie, dla interpretera ważne są <code>;</code>, nie znaki nowej lini</p><div class=highlight><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-phtml data-lang=phtml><span style=color:#ff79c6>&lt;?php</span>
+</code></pre></div></blockquote>
+<blockquote>
+<p>Można zapisać parę &ldquo;linijek&rdquo; obok siebie, dla interpretera ważne są <code>;</code>, nie znaki nowej lini</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-phtml data-lang=phtml><span style=color:#ff79c6>&lt;?php</span>
 <span style=color:#8be9fd;font-style:italic>$zmienna</span> <span style=color:#ff79c6>=</span> <span style=color:#f1fa8c>&#39;tekst&#39;</span>;
 <span style=color:#ff79c6>echo</span> <span style=color:#8be9fd;font-style:italic>$zmienna</span>;
 <span style=color:#ff79c6>?&gt;</span>
 zadziała tak samo jak
 <span style=color:#ff79c6>&lt;?php</span> <span style=color:#8be9fd;font-style:italic>$zmienna</span> <span style=color:#ff79c6>=</span> <span style=color:#f1fa8c>&#39;tekst&#39;</span>; <span style=color:#ff79c6>echo</span> <span style=color:#8be9fd;font-style:italic>$zmienna</span>; <span style=color:#ff79c6>?&gt;</span>
-</code></pre></div></blockquote><h2 id=php---instrukcja-warunkowa-if><a href=#php---instrukcja-warunkowa-if class=anchor aria-hidden=true></a>PHP - Instrukcja warunkowa <code>if</code></h2><p>Instrukcję <code>if</code> wykorzystujemy wtedy gdy do wykonania działania potrzebne jest spełnienie jakiegoś warunku.</p><p>Składnia instrukcji <code>if</code></p><div class=highlight><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-phtml data-lang=phtml><span style=color:#ff79c6>&lt;?php</span>
+</code></pre></div></blockquote>
+<h2 id=php---instrukcja-warunkowa-if><a href=#php---instrukcja-warunkowa-if class=anchor aria-hidden=true></a>PHP - Instrukcja warunkowa <code>if</code></h2><p>Instrukcję <code>if</code> wykorzystujemy wtedy gdy do wykonania działania potrzebne jest spełnienie jakiegoś warunku.</p>
+<p>Składnia instrukcji <code>if</code></p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-phtml data-lang=phtml><span style=color:#ff79c6>&lt;?php</span>
 
 <span style=color:#ff79c6>if</span>(<span style=color:#ff79c6>true</span>) {
 	<span style=color:#6272a4>// code …
@@ -78,11 +127,29 @@ zadziała tak samo jak
 	<span style=color:#6272a4>// wykona się jeśli wszystkie poprzednie zwrócą `false`
 </span><span style=color:#6272a4></span>}
 
-</code></pre></div><p>Jeżeli chcemy sprawdzić czy zmienna jest równa jakiejś wartości bądź ciąg znaków używamy <code>==</code>.</p><p>Przykłady</p><div class=highlight><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-phtml data-lang=phtml><span style=color:#ff79c6>&lt;?php</span>
+</code></pre></div><p>Jeżeli chcemy sprawdzić czy zmienna jest równa jakiejś wartości bądź ciąg znaków używamy <code>==</code>.</p>
+<p>Przykłady</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-phtml data-lang=phtml><span style=color:#ff79c6>&lt;?php</span>
 <span style=color:#ff79c6>if</span>(<span style=color:#8be9fd;font-style:italic>$a</span> <span style=color:#ff79c6>&gt;</span> <span style=color:#bd93f9>0</span>) <span style=color:#ff79c6>echo</span> <span style=color:#f1fa8c>&#39;jestem większa od zera&#39;</span>;
 <span style=color:#ff79c6>elseif</span>(<span style=color:#8be9fd;font-style:italic>$a</span> <span style=color:#ff79c6>&lt;</span> <span style=color:#bd93f9>0</span>) <span style=color:#ff79c6>echo</span> <span style=color:#f1fa8c>&#39;jestem mniejsza od zera&#39;</span>;
 <span style=color:#ff79c6>else</span> <span style=color:#ff79c6>echo</span> <span style=color:#f1fa8c>&#39;jestem równa zero&#39;</span>;
-</code></pre></div><h2 id=tabelki-html><a href=#tabelki-html class=anchor aria-hidden=true></a>Tabelki HTML</h2><p>Znaczniki do konstruowania tabelki</p><ul><li><code>&lt;table></code> - główny element zagnieżdżamy w nim całą tabelkę</li><li><code>&lt;thead></code> - nagłówek tabeli</li><li><code>&lt;tbody></code> - ciało tabeli</li><li><code>&lt;tr></code> - table row, rząd, zagnieżdżamy w <code>&lt;thead></code> lub <code>&lt;tbody></code></li><li><code>&lt;th></code> - komórka tabeli, będąca nagłówkiem, <strong>najczęściej</strong> zagnieżdżamy w tagu <code>&lt;tr></code> znajdującym się w <code>&lt;thead></code></li><li><code>&lt;td></code> - komórka tabeli w <code>&lt;tbody></code>, zagnieżdżamy w tagu <code>&lt;tr></code> znajdującym się w <code>&lt;tbody></code></li></ul><p>Atrybuty elementów <code>&lt;th></code> i <code>&lt;td></code></p><ul><li><code>colspan="2"</code> - &ldquo;łączy&rdquo; komórkę z komórką położoną po prawej</li><li><code>rowspan="2"</code> - &ldquo;łączy&rdquo; komórkę z komórką znajdującą się poniżej</li><li><code>border</code> - nie powinno się używać, ale pani każe, tworzy obramowanie</li></ul><p>Przykłady</p><div class=highlight><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html>&lt;<span style=color:#ff79c6>table</span>&gt;
+</code></pre></div><h2 id=tabelki-html><a href=#tabelki-html class=anchor aria-hidden=true></a>Tabelki HTML</h2><p>Znaczniki do konstruowania tabelki</p>
+<ul>
+<li><code>&lt;table></code> - główny element zagnieżdżamy w nim całą tabelkę</li>
+<li><code>&lt;thead></code> - nagłówek tabeli</li>
+<li><code>&lt;tbody></code> - ciało tabeli</li>
+<li><code>&lt;tr></code> - table row, rząd, zagnieżdżamy w <code>&lt;thead></code> lub <code>&lt;tbody></code></li>
+<li><code>&lt;th></code> - komórka tabeli, będąca nagłówkiem, <strong>najczęściej</strong> zagnieżdżamy w tagu <code>&lt;tr></code> znajdującym się w <code>&lt;thead></code></li>
+<li><code>&lt;td></code> - komórka tabeli w <code>&lt;tbody></code>, zagnieżdżamy w tagu <code>&lt;tr></code> znajdującym się w <code>&lt;tbody></code></li>
+</ul>
+<p>Atrybuty elementów <code>&lt;th></code> i <code>&lt;td></code></p>
+<ul>
+<li><code>colspan="2"</code> - &ldquo;łączy&rdquo; komórkę z komórką położoną po prawej</li>
+<li><code>rowspan="2"</code> - &ldquo;łączy&rdquo; komórkę z komórką znajdującą się poniżej</li>
+<li><code>border</code> - nie powinno się używać, ale pani każe, tworzy obramowanie</li>
+</ul>
+<p>Przykłady</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html>&lt;<span style=color:#ff79c6>table</span>&gt;
     &lt;<span style=color:#ff79c6>thead</span>&gt;
         &lt;<span style=color:#ff79c6>tr</span>&gt;
             &lt;<span style=color:#ff79c6>th</span> <span style=color:#50fa7b>colspan</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;2&#34;</span>&gt;The table header&lt;/<span style=color:#ff79c6>th</span>&gt;
@@ -95,7 +162,10 @@ zadziała tak samo jak
         &lt;/<span style=color:#ff79c6>tr</span>&gt;
     &lt;/<span style=color:#ff79c6>tbody</span>&gt;
 &lt;/<span style=color:#ff79c6>table</span>&gt;
-</code></pre></div><p>wynik (+ stylowanie z mojej strony)</p><h2 id=html-formularze><a href=#html-formularze class=anchor aria-hidden=true></a>HTML formularze</h2><p>Formularze umożliwiają wprowadzenie różnego rodzaju danych na stronę oraz opcjonalne przekazanie ich do serwera (maila).</p><p>sposób przekazania na maila <code>[action="mailto:mail@address.com]</code>.</p><div class=highlight><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html>&lt;<span style=color:#ff79c6>form</span> <span style=color:#50fa7b>action</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;link-do-wykonania&#34;</span> <span style=color:#50fa7b>method</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;metoda-http&#34;</span>&gt;
+</code></pre></div><p>wynik (+ stylowanie z mojej strony)</p>
+<h2 id=html-formularze><a href=#html-formularze class=anchor aria-hidden=true></a>HTML formularze</h2><p>Formularze umożliwiają wprowadzenie różnego rodzaju danych na stronę oraz opcjonalne przekazanie ich do serwera (maila).</p>
+<p>sposób przekazania na maila <code>[action="mailto:mail@address.com]</code>.</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html>&lt;<span style=color:#ff79c6>form</span> <span style=color:#50fa7b>action</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;link-do-wykonania&#34;</span> <span style=color:#50fa7b>method</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;metoda-http&#34;</span>&gt;
 	&lt;<span style=color:#ff79c6>input</span> <span style=color:#50fa7b>type</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;text|password|button|checkbox|color|date|email|file|number-domyślnie-text&#34;</span> <span style=color:#50fa7b>value</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;wartość&#34;</span> <span style=color:#50fa7b>maxlength</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;maksymalny-rozmiar-pola&#34;</span> <span style=color:#50fa7b>placeholder</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;Wpisz hasło…&#34;</span>&gt;
 
 	Podaj płeć
@@ -113,7 +183,7 @@ zadziała tak samo jak
 	&lt;/<span style=color:#ff79c6>select</span>&gt;
 	&lt;<span style=color:#ff79c6>textarea</span>&gt;&lt;/<span style=color:#ff79c6>textarea</span>&gt;
 &lt;/<span style=color:#ff79c6>form</span>&gt;
-</code></pre></div><h2 id=przechwytywanie-w-php-zawartości-formularza><a href=#przechwytywanie-w-php-zawarto%c5%9bci-formularza class=anchor aria-hidden=true></a>przechwytywanie w PHP zawartości formularza</h2><div class=highlight><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-phtml data-lang=phtml>&lt;<span style=color:#ff79c6>form</span> <span style=color:#50fa7b>method</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;POST&#34;</span>&gt;
+</code></pre></div><h2 id=przechwytywanie-w-php-zawartości-formularza><a href=#przechwytywanie-w-php-zawarto%c5%9bci-formularza class=anchor aria-hidden=true></a>przechwytywanie w PHP zawartości formularza</h2><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-phtml data-lang=phtml>&lt;<span style=color:#ff79c6>form</span> <span style=color:#50fa7b>method</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;POST&#34;</span>&gt;
     &lt;<span style=color:#ff79c6>input</span> <span style=color:#50fa7b>name</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;username&#34;</span>&gt; <span style=color:#6272a4>&lt;!-- type=&#34;text&#34; jest wartością domyślną, po atrybucie name odnosimy się w php --&gt;</span>
     &lt;<span style=color:#ff79c6>button</span> <span style=color:#50fa7b>type</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;submit&#34;</span>&gt;Wyślij&lt;/<span style=color:#ff79c6>button</span>&gt;
 &lt;/<span style=color:#ff79c6>form</span>&gt;
@@ -123,7 +193,7 @@ zadziała tak samo jak
 </span><span style=color:#6272a4></span>    <span style=color:#8be9fd;font-style:italic>$username</span> <span style=color:#ff79c6>=</span> <span style=color:#8be9fd;font-style:italic>$_POST</span>[<span style=color:#f1fa8c>&#39;username&#39;</span>];
     <span style=color:#ff79c6>echo</span> <span style=color:#8be9fd;font-style:italic>$a</span>;
 }
-</code></pre></div><h2 id=php-pętla-for><a href=#php-p%c4%99tla-for class=anchor aria-hidden=true></a>PHP Pętla for</h2><div class=highlight><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-phtml data-lang=phtml><span style=color:#ff79c6>&lt;?php</span>
+</code></pre></div><h2 id=php-pętla-for><a href=#php-p%c4%99tla-for class=anchor aria-hidden=true></a>PHP Pętla for</h2><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-phtml data-lang=phtml><span style=color:#ff79c6>&lt;?php</span>
 
 <span style=color:#ff79c6>for</span>(<span style=color:#8be9fd;font-style:italic>$i</span> <span style=color:#ff79c6>=</span> <span style=color:#bd93f9>0</span>; <span style=color:#8be9fd;font-style:italic>$i</span> <span style=color:#ff79c6>&lt;</span> <span style=color:#bd93f9>10</span>; i<span style=color:#ff79c6>++</span>) {
     <span style=color:#ff79c6>echo</span> <span style=color:#f1fa8c>&#34;ZST&#34;</span>;
@@ -133,12 +203,23 @@ zadziała tak samo jak
 <span style=color:#ff79c6>&lt;?php</span> <span style=color:#ff79c6>for</span>(<span style=color:#8be9fd;font-style:italic>$i</span> <span style=color:#ff79c6>=</span> <span style=color:#bd93f9>0</span>; <span style=color:#8be9fd;font-style:italic>$i</span> <span style=color:#ff79c6>&lt;</span> <span style=color:#bd93f9>10</span>; i<span style=color:#ff79c6>++</span>)<span style=color:#ff79c6>:</span> <span style=color:#ff79c6>?&gt;</span>
     ZST &lt;<span style=color:#ff79c6>br</span>&gt;
 <span style=color:#ff79c6>&lt;?php</span> <span style=color:#ff79c6>endif</span>; <span style=color:#ff79c6>?&gt;</span>
-</code></pre></div><h2 id=html-odsyłacze><a href=#html-odsy%c5%82acze class=anchor aria-hidden=true></a>HTML odsyłacze</h2><p>Odsyłacze umożliwiają powiązanie między dokumentami, często nazywane są hiperłączami.</p><div class=highlight><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html>&lt;<span style=color:#ff79c6>a</span> <span style=color:#50fa7b>href</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;about-me.html&#34;</span>&gt;Website&lt;/<span style=color:#ff79c6>a</span>&gt; <span style=color:#6272a4>&lt;!-- relative path / ścieżka względna --&gt;</span>
+</code></pre></div><h2 id=html-odsyłacze><a href=#html-odsy%c5%82acze class=anchor aria-hidden=true></a>HTML odsyłacze</h2><p>Odsyłacze umożliwiają powiązanie między dokumentami, często nazywane są hiperłączami.</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html>&lt;<span style=color:#ff79c6>a</span> <span style=color:#50fa7b>href</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;about-me.html&#34;</span>&gt;Website&lt;/<span style=color:#ff79c6>a</span>&gt; <span style=color:#6272a4>&lt;!-- relative path / ścieżka względna --&gt;</span>
 &lt;<span style=color:#ff79c6>a</span> <span style=color:#50fa7b>href</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;/about-me.html&#34;</span>&gt;Website&lt;/<span style=color:#ff79c6>a</span>&gt; <span style=color:#6272a4>&lt;!-- absolut path / ścieżka bezwzględna --&gt;</span>
 &lt;<span style=color:#ff79c6>a</span> <span style=color:#50fa7b>href</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;https://example.com&#34;</span>&gt;Website&lt;/<span style=color:#ff79c6>a</span>&gt;
 &lt;<span style=color:#ff79c6>a</span> <span style=color:#50fa7b>href</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;https://example.com&#34;</span> <span style=color:#50fa7b>target</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;_blank&#34;</span>&gt;Website&lt;/<span style=color:#ff79c6>a</span>&gt; <span style=color:#6272a4>&lt;!-- W nowej karcie --&gt;</span>
 &lt;<span style=color:#ff79c6>a</span> <span style=color:#50fa7b>href</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;mailto:m.bluth@example.com&#34;</span>&gt;Email&lt;/<span style=color:#ff79c6>a</span>&gt;
 &lt;<span style=color:#ff79c6>a</span> <span style=color:#50fa7b>href</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;tel:+123456789&#34;</span>&gt;Phone&lt;/<span style=color:#ff79c6>a</span>&gt;
-</code></pre></div><p>Etykiety zwane często zakładkami lub kotwicami, pozwalają na szybkie przemieszczanie się do konkretnego miejsca w tekście</p><div class=highlight><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html>&lt;<span style=color:#ff79c6>a</span> <span style=color:#50fa7b>href</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;#id&#34;</span>&gt; Link to id &lt;/<span style=color:#ff79c6>a</span>&gt;
-</code></pre></div></article><footer>Korneliusz Łapacz &copy; 2021<div><a href=https://github.com/kornellapacz/zeszyt/edit/master/content/zawodowe/psi.md>Edytuj tę stronę</a>
-<a href=https://github.com/kornellapacz/zeszyt/commits/master/content/zawodowe/psi.md>Historia edycji</a></div></footer></body></html>
+</code></pre></div><p>Etykiety zwane często zakładkami lub kotwicami, pozwalają na szybkie przemieszczanie się do konkretnego miejsca w tekście</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html>&lt;<span style=color:#ff79c6>a</span> <span style=color:#50fa7b>href</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;#id&#34;</span>&gt; Link to id &lt;/<span style=color:#ff79c6>a</span>&gt;
+</code></pre></div>
+</article>
+<footer>
+Korneliusz Łapacz &copy; 2021
+<div>
+<a href=https://github.com/kornellapacz/zeszyt/edit/master/content/zawodowe/psi.md>Edytuj tę stronę</a>
+<a href=https://github.com/kornellapacz/zeszyt/commits/master/content/zawodowe/psi.md>Historia edycji</a>
+</div>
+</footer>
+</body>
+</html>

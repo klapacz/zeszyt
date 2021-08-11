@@ -1,2 +1,198 @@
-<!doctype html><html lang=pl><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=author content="Korneliusz Łapacz"><meta name=description content="Na tej stronie znajdują się moje notatki z lekcji"><title>MENUTK &ndash; Zeszyt Kornela</title><link rel=stylesheet href=https://zeszyt.lapacz-kornel.dev/scss/main.css></head><body><header><h1>MENUTK</h1><p>Montaż, eksploatacja i naprawa urządzeń techniki komputerowej</p></header><article><blockquote><p>miejsce 13b</p></blockquote><h2 id=dyski-twarde><a href=#dyski-twarde class=anchor aria-hidden=true></a>Dyski Twarde</h2><h3 id=sposoby-adresowania-danych><a href=#sposoby-adresowania-danych class=anchor aria-hidden=true></a>Sposoby adresowania danych</h3><ul><li>CHS (cylinder, head, sector)</li><li>ECHS (Extended cylinder, head, sector)</li><li>LBA (Logical Block Adressing)</li><li>MZR (Multiple Zone Recording)</li></ul><h3 id=struktura-fizyczna-dysku-twardego><a href=#struktura-fizyczna-dysku-twardego class=anchor aria-hidden=true></a>Struktura fizyczna dysku twardego</h3><blockquote><p>cluster - elementarna jednostka informacji</p></blockquote><h3 id=techniki-odczytu><a href=#techniki-odczytu class=anchor aria-hidden=true></a>Techniki odczytu</h3><ul><li>SMR (Shingled Magnetic Recording) - technologia zapisu danych dachówkowo.</li><li>HAMR podczas zapisu głowica podnosi temperaturę nośnika, zmieniając jego właściwości.</li><li>MAMR - działa jak HAMR, ale ogrzewanie mikrofalami.</li><li>MACH.2 WWykorzystuje się 2 serwomechanizmy. Każdy z nich obsługuje połowę ramion z głowicami. Dzięki temu w tym samym momencie można jednocześnie realizować 2 operacje.</li><li>Multilayer HDD - metoda zwiększenia pojemności przez zastosowanie na jednym talerzu nośników o różnych właściwościach i głowic współpracujących z odpowiednimi warstwami nośnika.</li></ul><p>Wszystkie typy pamięci na nośnikach magnetycznych działają na tej samej zasadzie - na poruszającym się dysku lub taśmie magnetycznej dokonywany jest zapis informacji. polegający na odpowiednim namagnesowaniu pól nośnika magnetycznego.</p><h2 id=parametry-dysków-twardych><a href=#parametry-dysk%c3%b3w-twardych class=anchor aria-hidden=true></a>Parametry dysków twardych</h2><table><thead><tr><th>parametr</th><th>wartość</th></tr></thead><tbody><tr><td>pojemność</td><td>kilkadziesiąt GB do kilkanaście TB</td></tr><tr><td>liczba talerzy</td><td>1-4</td></tr><tr><td>liczba głowic</td><td>fizyczne (liczba talerzy * 2) i logiczne (nawet kilkadziesiąt)</td></tr><tr><td>liczba cylindrów</td><td>kilka -kilkanaście tysięcy</td></tr><tr><td>średni czas dostępu</td><td>kilkadziesiąt milisekund</td></tr><tr><td>prędkości obrotowe</td><td>5400, 7200, 10 000, 15 000 rpm</td></tr><tr><td>szybkość transferu danych</td><td>kilka-kilkanaście MB/s</td></tr><tr><td>szybkość odczytu</td><td></td></tr><tr><td>szybkość zapisu</td><td></td></tr><tr><td>MTFB</td><td>średni czas bezawaryjnej pracy</td></tr><tr><td>S.M.A.R.T</td><td></td></tr><tr><td>wielkość bufforu cache</td><td>kilkadziesiąt MB</td></tr><tr><td>zasilanie</td><td>-12V, +5V, +12V</td></tr><tr><td>moc pobierania</td><td>kilka, kilkanaście W</td></tr><tr><td>średnica dysku</td><td>3.5", 2.5" (przenośne lub laptopy)</td></tr><tr><td>interfejs wewnętrzny</td><td>ATA (IDE, PATA), SATA, SATA Express, U.2, M,2, PCI EXpresss, FATA</td></tr><tr><td>interfejs zewnętrzny</td><td>eSATA, USB, Thunderbold, Express Card</td></tr></tbody></table><h3 id=smart><a href=#smart class=anchor aria-hidden=true></a>S.M.A.R.T</h3><p>(ang. Self-Monitoring Analysis and Reporting Technology). Oprogramowanie dysku, które monitoruje, analizuje i raportuje stan urządzenia, np. wysokość lotu głowicy, czas uzyskania nominalnej prędkości obrotowej. Jeśli następuje degradacja tych wielkości układ kontroli wysyła ostrzeżenie że dysk może ulec uszkodzeniu.</p><h3 id=system-zarządzania-poborem-mocy><a href=#system-zarz%c4%85dzania-poborem-mocy class=anchor aria-hidden=true></a>System zarządzania poborem mocy</h3><p>System (ang. POwer Management) wyłącza silnik dysku i zaparkować głowicę, po pewnym czasie od momentu ostatniej operacji in/out wykonanej na dysku. Przejście dysku najpierw w stan jałowy (ang. idle) a następnie uśpienia (ang. SLeep lub Standby) powoduje znaczące zmniejszenie poboru mocy. System Power Management powoduje nawet dziesięciokrotnie zmniejsza poboru mocy przez nie używany dysk.</p><h2 id=interfejsy-dysków-twardych><a href=#interfejsy-dysk%c3%b3w-twardych class=anchor aria-hidden=true></a>Interfejsy dysków twardych</h2><p>Znane są trzy podstawowe typy interfejsów dyskowych</p><ul><li>IDE<ul><li>równoległy interfejs dyskowy,</li><li>Zapewnia przepustowość do 133MB/s</li><li>złącze ma 40 pinów</li><li>Taśma pozwala na podpięciu 2 dysków w systemie Master-Slave (ustawione zworkami)</li><li>Płyta główna pozwalała na podłączenie maksymalnie 4 dysków lub napędów optycznych</li></ul></li><li>SCSI<ul><li>równoległa magistrala danych do podłączenia twardych dysków i napędów optycznych wykorzystywana w serwerach i wysokiej klasy stacji roboczych</li><li>maksymalna szybkość do 640MB/s</li><li>Umożliwiał podłączenie 15 urządzeń</li><li>Złącze miało 50 pinów</li></ul></li><li>SATA<ul><li>Serial ATA (ang. Serial Advanced Technology Attachment, sata)</li><li>szeregowa magistrala komputerowa do komunikacji pomiędzy płytą główną a pamięciami masowymi, takimi jak dyski twarde, napędy optyczne i taśmowe</li><li>wprowadzona w roku 2000.</li><li>SATA jest następcą magistrali równoległej ATA</li><li>Kabel ma 7 pinów i umożliwia podpięcie jednego dysku.</li><li>System pozwala na współpracę do 8 dysków SATA na płycie głównej</li><li>interfejs zapewnia przepustowość do 600MB/s</li><li>złącze danych ma 7 pinów, transmisja jest kodowana, dwu kierunkowa, 4pinowa.</li><li>zasilanie<ul><li>standardowe 15pinów, dostarcza napięcia +3.3V, +5V, +12V</li><li>wersja slim (laptopowa) 6 pinowa, dostarcza tylko napięcie +5V</li></ul></li></ul></li><li>eSATA<ul><li>extended SATA, niekompatybilne kable, parametry sata</li><li>maksymalna długość kabla 2 metry</li><li>zasilanie z gniazdka lub USB</li><li>Występuje w kilku różnych odmianach o rozszerzonych funkcjonalnościach<ul><li>eSATAp</li><li>Power over eSATA</li><li>Power eSATA</li><li>eSATA/USB Combo</li><li>eSATA/USB HYBRID PORT (EUHP)</li></ul></li></ul></li></ul><p>Inne interfejsy</p><ul><li>Dyski HDD<ul><li>SAS</li><li>FATA</li></ul></li><li>Nośniki SSD<ul><li>SATA Express</li><li>M.2</li><li>U.2</li><li>PCI-Express</li></ul></li></ul></article><footer>Korneliusz Łapacz &copy; 2021<div><a href=https://github.com/kornellapacz/zeszyt/edit/master/content/zawodowe/menutk.md>Edytuj tę stronę</a>
-<a href=https://github.com/kornellapacz/zeszyt/commits/master/content/zawodowe/menutk.md>Historia edycji</a></div></footer></body></html>
+<!doctype html><html lang=pl>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=author content="Korneliusz Łapacz">
+<meta name=description content="Na tej stronie znajdują się moje notatki z lekcji">
+<title>
+MENUTK &ndash; Zeszyt Kornela
+</title>
+<link rel=stylesheet href=https://zeszyt.lapacz-kornel.dev/scss/main.css>
+</head>
+<body>
+<header>
+<h1>MENUTK</h1>
+<p>Montaż, eksploatacja i naprawa urządzeń techniki komputerowej</p>
+</header>
+<article>
+<blockquote>
+<p>miejsce 13b</p>
+</blockquote>
+<h2 id=dyski-twarde><a href=#dyski-twarde class=anchor aria-hidden=true></a>Dyski Twarde</h2><h3 id=sposoby-adresowania-danych><a href=#sposoby-adresowania-danych class=anchor aria-hidden=true></a>Sposoby adresowania danych</h3><ul>
+<li>CHS (cylinder, head, sector)</li>
+<li>ECHS (Extended cylinder, head, sector)</li>
+<li>LBA (Logical Block Adressing)</li>
+<li>MZR (Multiple Zone Recording)</li>
+</ul>
+<h3 id=struktura-fizyczna-dysku-twardego><a href=#struktura-fizyczna-dysku-twardego class=anchor aria-hidden=true></a>Struktura fizyczna dysku twardego</h3><blockquote>
+<p>cluster - elementarna jednostka informacji</p>
+</blockquote>
+<h3 id=techniki-odczytu><a href=#techniki-odczytu class=anchor aria-hidden=true></a>Techniki odczytu</h3><ul>
+<li>SMR (Shingled Magnetic Recording) - technologia zapisu danych dachówkowo.</li>
+<li>HAMR podczas zapisu głowica podnosi temperaturę nośnika, zmieniając jego właściwości.</li>
+<li>MAMR - działa jak HAMR, ale ogrzewanie mikrofalami.</li>
+<li>MACH.2 WWykorzystuje się 2 serwomechanizmy. Każdy z nich obsługuje połowę ramion z głowicami. Dzięki temu w tym samym momencie można jednocześnie realizować 2 operacje.</li>
+<li>Multilayer HDD - metoda zwiększenia pojemności przez zastosowanie na jednym talerzu nośników o różnych właściwościach i głowic współpracujących z odpowiednimi warstwami nośnika.</li>
+</ul>
+<p>Wszystkie typy pamięci na nośnikach magnetycznych działają na tej samej zasadzie - na poruszającym się dysku lub taśmie magnetycznej dokonywany jest zapis informacji. polegający na odpowiednim namagnesowaniu pól nośnika magnetycznego.</p>
+<h2 id=parametry-dysków-twardych><a href=#parametry-dysk%c3%b3w-twardych class=anchor aria-hidden=true></a>Parametry dysków twardych</h2><table>
+<thead>
+<tr>
+<th>parametr</th>
+<th>wartość</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>pojemność</td>
+<td>kilkadziesiąt GB do kilkanaście TB</td>
+</tr>
+<tr>
+<td>liczba talerzy</td>
+<td>1-4</td>
+</tr>
+<tr>
+<td>liczba głowic</td>
+<td>fizyczne (liczba talerzy * 2) i logiczne (nawet kilkadziesiąt)</td>
+</tr>
+<tr>
+<td>liczba cylindrów</td>
+<td>kilka -kilkanaście tysięcy</td>
+</tr>
+<tr>
+<td>średni czas dostępu</td>
+<td>kilkadziesiąt milisekund</td>
+</tr>
+<tr>
+<td>prędkości obrotowe</td>
+<td>5400, 7200, 10 000, 15 000 rpm</td>
+</tr>
+<tr>
+<td>szybkość transferu danych</td>
+<td>kilka-kilkanaście MB/s</td>
+</tr>
+<tr>
+<td>szybkość odczytu</td>
+<td></td>
+</tr>
+<tr>
+<td>szybkość zapisu</td>
+<td></td>
+</tr>
+<tr>
+<td>MTFB</td>
+<td>średni czas bezawaryjnej pracy</td>
+</tr>
+<tr>
+<td>S.M.A.R.T</td>
+<td></td>
+</tr>
+<tr>
+<td>wielkość bufforu cache</td>
+<td>kilkadziesiąt MB</td>
+</tr>
+<tr>
+<td>zasilanie</td>
+<td>-12V, +5V, +12V</td>
+</tr>
+<tr>
+<td>moc pobierania</td>
+<td>kilka, kilkanaście W</td>
+</tr>
+<tr>
+<td>średnica dysku</td>
+<td>3.5", 2.5" (przenośne lub laptopy)</td>
+</tr>
+<tr>
+<td>interfejs wewnętrzny</td>
+<td>ATA (IDE, PATA), SATA, SATA Express, U.2, M,2, PCI EXpresss, FATA</td>
+</tr>
+<tr>
+<td>interfejs zewnętrzny</td>
+<td>eSATA, USB, Thunderbold, Express Card</td>
+</tr>
+</tbody>
+</table>
+<h3 id=smart><a href=#smart class=anchor aria-hidden=true></a>S.M.A.R.T</h3><p>(ang. Self-Monitoring Analysis and Reporting Technology). Oprogramowanie dysku, które monitoruje, analizuje i raportuje stan urządzenia, np. wysokość lotu głowicy, czas uzyskania nominalnej prędkości obrotowej. Jeśli następuje degradacja tych wielkości układ kontroli wysyła ostrzeżenie że dysk może ulec uszkodzeniu.</p>
+<h3 id=system-zarządzania-poborem-mocy><a href=#system-zarz%c4%85dzania-poborem-mocy class=anchor aria-hidden=true></a>System zarządzania poborem mocy</h3><p>System (ang. POwer Management) wyłącza silnik dysku i zaparkować głowicę, po pewnym czasie od momentu ostatniej operacji in/out wykonanej na dysku. Przejście dysku najpierw w stan jałowy (ang. idle) a następnie uśpienia (ang. SLeep lub Standby) powoduje znaczące zmniejszenie poboru mocy. System Power Management powoduje nawet dziesięciokrotnie zmniejsza poboru mocy przez nie używany dysk.</p>
+<h2 id=interfejsy-dysków-twardych><a href=#interfejsy-dysk%c3%b3w-twardych class=anchor aria-hidden=true></a>Interfejsy dysków twardych</h2><p>Znane są trzy podstawowe typy interfejsów dyskowych</p>
+<ul>
+<li>IDE
+<ul>
+<li>równoległy interfejs dyskowy,</li>
+<li>Zapewnia przepustowość do 133MB/s</li>
+<li>złącze ma 40 pinów</li>
+<li>Taśma pozwala na podpięciu 2 dysków w systemie Master-Slave (ustawione zworkami)</li>
+<li>Płyta główna pozwalała na podłączenie maksymalnie 4 dysków lub napędów optycznych</li>
+</ul>
+</li>
+<li>SCSI
+<ul>
+<li>równoległa magistrala danych do podłączenia twardych dysków i napędów optycznych wykorzystywana w serwerach i wysokiej klasy stacji roboczych</li>
+<li>maksymalna szybkość do 640MB/s</li>
+<li>Umożliwiał podłączenie 15 urządzeń</li>
+<li>Złącze miało 50 pinów</li>
+</ul>
+</li>
+<li>SATA
+<ul>
+<li>Serial ATA (ang. Serial Advanced Technology Attachment, sata)</li>
+<li>szeregowa magistrala komputerowa do komunikacji pomiędzy płytą główną a pamięciami masowymi, takimi jak dyski twarde, napędy optyczne i taśmowe</li>
+<li>wprowadzona w roku 2000.</li>
+<li>SATA jest następcą magistrali równoległej ATA</li>
+<li>Kabel ma 7 pinów i umożliwia podpięcie jednego dysku.</li>
+<li>System pozwala na współpracę do 8 dysków SATA na płycie głównej</li>
+<li>interfejs zapewnia przepustowość do 600MB/s</li>
+<li>złącze danych ma 7 pinów, transmisja jest kodowana, dwu kierunkowa, 4pinowa.</li>
+<li>zasilanie
+<ul>
+<li>standardowe 15pinów, dostarcza napięcia +3.3V, +5V, +12V</li>
+<li>wersja slim (laptopowa) 6 pinowa, dostarcza tylko napięcie +5V</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>eSATA
+<ul>
+<li>extended SATA, niekompatybilne kable, parametry sata</li>
+<li>maksymalna długość kabla 2 metry</li>
+<li>zasilanie z gniazdka lub USB</li>
+<li>Występuje w kilku różnych odmianach o rozszerzonych funkcjonalnościach
+<ul>
+<li>eSATAp</li>
+<li>Power over eSATA</li>
+<li>Power eSATA</li>
+<li>eSATA/USB Combo</li>
+<li>eSATA/USB HYBRID PORT (EUHP)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>Inne interfejsy</p>
+<ul>
+<li>Dyski HDD
+<ul>
+<li>SAS</li>
+<li>FATA</li>
+</ul>
+</li>
+<li>Nośniki SSD
+<ul>
+<li>SATA Express</li>
+<li>M.2</li>
+<li>U.2</li>
+<li>PCI-Express</li>
+</ul>
+</li>
+</ul>
+</article>
+<footer>
+Korneliusz Łapacz &copy; 2021
+<div>
+<a href=https://github.com/kornellapacz/zeszyt/edit/master/content/zawodowe/menutk.md>Edytuj tę stronę</a>
+<a href=https://github.com/kornellapacz/zeszyt/commits/master/content/zawodowe/menutk.md>Historia edycji</a>
+</div>
+</footer>
+</body>
+</html>
