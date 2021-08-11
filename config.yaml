@@ -1,14 +1,14 @@
-baseURL: https://zeszyt.lapacz-kornel.dev/
+baseURL: https://zeszyt.klapacz.dev/
 languageCode: pl
 title: Zeszyt Kornela
-disableKinds: ['RSS']
+disableKinds: ['RSS', 'section']
 params:
   author: Korneliusz Łapacz
   description: Na tej stronie znajdują się moje notatki z lekcji
-  repo: https://github.com/kornellapacz/zeszyt
-  feed: https://github.com/kornellapacz/zeszyt/commits/master.atom
+  repo: https://github.com/klapacz/zeszyt
+  feed: https://github.com/klapacz/zeszyt/commits/master.atom
 markup: 
   highlight: 
     style: dracula
 taxonomies: {}
-disableKinds: ['section']
+
