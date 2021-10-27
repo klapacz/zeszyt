@@ -1,5 +1,5 @@
 ---
-title: Historia
+title: Historia i HIS
 ---
 
 ## Wojna obronna 1939
@@ -103,3 +103,13 @@ Do Wspólnoty Europejskiej w 1995 Austria, Szwecja, Finlandia.
 
 W 1997 podpisano traktat w Lizbonie na mocy którego powstała Unia Europejska , od tej pory UE jest nie tylko organizacją gospodarczą , ale i polityczną ,zajmuje się także przestrzeganiem prawa w krajach członkowskich.
 W 2004 roku Polska przystąpiła do UE. Obecnie UE liczy 27 państw.
+
+# HIS
+
+## Czasy wojny i dyplomacji. Polska Bolesława Chrobrego.
+
+1. Do polski przybył biskup czeskich Wojciech, który nawracał polaków na pomorzu a następnie udał się do pogańskich prusów gdzie został zabity. Chrobry wykupił jego ciało i pochował w kateterze w Gnieźnie, Wojciech został świętym.
+2. W tysięcznym roku do Gniezna przybył cesarz Otton trzeci oficjalnie pomodli się u grobu świętego Wojciecha a naprawdę chciał omówić z chrobrym ideę uniwersalnej europy, gdzie będzie panował chrześcijaństwo na czele z papierzem, gdzie cesarz będzie dbał o pokój w europie, wszędzie będzie obowiązywała łacina i kultura chrześcijańska. Wydarzenie to nazywamy zjazdem gnieźnieńskim. Nie weszło ono w zycie gdyż cesarze bezpotomnie umiera.
+3. Wybór w niemczech nowego cesarza Henryka drugiego, który miał odmienną politykę niż jego poprzednik, oznaczało to wojnę z polską która trwałą od 1002 do 1018 roku. Chrobry częściowo opanował a następnie stracił Czechy, Morawy, Łużyce i Milsko. Do pokoju doszło w 1018 roku w Budziszynie na mocy którego Chrobry wycofuje się z Czech, Moraw i Łużyc.
+4. Najazd i złupienie kijowa przez Chrobrego w 1018 roku, a następnie przyłączenie Grodów Czernieńskich (Czerwień, Przemyśl).
+5. Koronacja Chrobrego na pierwszego króla polski w 1025 roku i jego śmierć w tym samym roku.
