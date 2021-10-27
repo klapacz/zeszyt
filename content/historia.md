@@ -106,6 +106,42 @@ W 2004 roku Polska przystąpiła do UE. Obecnie UE liczy 27 państw.
 
 # HIS
 
+## Nowe państwo na mapie europy. Polska za Mieszka I
+
+1. Plemiona na ziemiach polskich:
+	- Polanie
+	- Wiślanie
+	- Ślężanie
+	- Pomożanie
+	- Mazowszanie
+	- Lędzinianie
+
+   Plemiona te były poganami. Do najważniejszych bogów należeli:
+	- Światowid
+	- Perun
+	- Słońce
+
+2. Pierwszym władcą historycznym był Mieszko I, który zarazem zapoczątkował dynastię piastów.
+Mieszko był księciem, gdyż na koronację nie zgadzał się cesarz niemiec.
+
+3. Chrzest polski (966 rok) przyjeła z rąk czeskich.
+  
+   przyczyny:
+	- Niemcy nie będą mieli powodu najeżdżać na polskę pod hasłem chrystianizacji
+	- Sojusz z czechami
+	- Większa waga polski na arenie międzynarodowej
+	- Jeden Bóg w całym państwie, co będzie prowadziło do jedności.
+   
+   Mieszko zawarł małżeństwo z księżniczką czeską Dobrawą.
+
+4. Państwo Mieszka I
+   - stolica/gród - Gniezno
+   - Gród - otoczony murami obronnymi teren administracyjno-wojskowy
+   - Drużyna wojów - armia Mieszka
+   - Daniny - mogą być w towarach (krowy, zboże, mleko), pracy lub pieniądzu.
+
+5. Dagome judex - Najstarszy dokument polski, który mieszko pisze do papieża prosząc, by ten przyjął polskę do rodziny państw chrześcijańskich i opisuje granice swojego państwa.
+
 ## Czasy wojny i dyplomacji. Polska Bolesława Chrobrego.
 
 1. Do polski przybył biskup czeskich Wojciech, który nawracał polaków na pomorzu a następnie udał się do pogańskich prusów gdzie został zabity. Chrobry wykupił jego ciało i pochował w kateterze w Gnieźnie, Wojciech został świętym.
